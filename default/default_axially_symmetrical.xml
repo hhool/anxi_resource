@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<header>
+<solution_type>0</solution_type>
+<version>1</version>
+<name>式样名称-0</name>
+</header>
+<base_param>
+<material_name>钛合金</material_name>
+<elastic_modulus>118.000000</elastic_modulus>
+<density>4379.000000</density>
+<max_stress>208.000000</max_stress>
+<stress_ratio>-1.000000</stress_ratio>
+</base_param>
+<result type="axially">
+<f_eamplitude>15.000000</f_eamplitude>
+<f_dc_stress_MPa>13.570000</f_dc_stress_MPa>
+<f_exp_section_radius_R2>5.000000</f_exp_section_radius_R2>
+<f_parallel_section_radius_R1>1.500000</f_parallel_section_radius_R1>
+<f_transition_section_radius_R0>22.300000</f_transition_section_radius_R0>
+<f_transition_section_length_L1>12.000000</f_transition_section_length_L1>
+<f_parallel_section_length_L0>2.000000</f_parallel_section_length_L0>
+<f_exp_section_length_L2>15.000000</f_exp_section_length_L2>
+</result>

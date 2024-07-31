@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="960,540" roundcorner="4,4,4,4">
+  <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
+  <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
+  <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
+  <Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
+  <Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
+  <Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
+  <Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
+  <Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
+  <Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
+  <Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+  <Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
+  <Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
+  <Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
+  <Default name="CheckBox" value="textcolor=&quot;#FFFFFFFF&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; disabledtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
+  <VerticalLayout bkcolor="#FFAAAAAA">
+    <!--header-->
+    <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
+      <Button width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'" />
+      <HorizontalLayout>
+        <Control width="26"/>
+        <Label name="apptitle" text="多功能超声波疲劳试验系统v1.0" font="0" textcolor="#FF0AF0FF" />
+      </HorizontalLayout>
+      <HorizontalLayout height="25" width="96">
+        <Button name="minbtn" tooltip="最小化" height="18" width="26" normalimage="minimize.png" hotimage="minimize_h.png" pushedimage="minimize_p.png"/>
+        <Button name="maxbtn" tooltip="最大化" height="18" width="25" normalimage="maximize.png" hotimage="maximize_h.png" pushedimage="maximize_p.png"/>
+        <Button name="restorebtn" visible="false" tooltip="恢复" height="18" width="25" normalimage="restore.png" hotimage="restore_h.png" pushedimage="restore_p.png"/>
+        <Button name="closebtn" tooltip="关闭" height="18" width="43" normalimage="close.png" hotimage="close_h.png" pushedimage="close_p.png"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--menu.button-->
+    <HorizontalLayout name="menu_button" height="32" bkcolor="#FFAAAAAA">
+      <HorizontalLayout>
+        <Button name="menu_btn_design_manager" text="设计管理" font="2" width="96" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Container width="1"/>
+        <Button name="menu_btn_design_store" text="设计存储" font="2" width="96" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Container width="1"/>
+        <Button name="menu_btn_back" text="返回" font="2" width="96" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+      </HorizontalLayout>
+      <HorizontalLayout>
+        <Label name="exp_title" text="轴向对称拉压疲劳试验" font="0" align="center" textcolor="#FFFFFFFF" />
+      </HorizontalLayout>
+      <HorizontalLayout>
+        <Container algin="rignt"/>
+        <Button name="menu_btn_about" text="关于" font="2" width="96" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--work.args.area-->
+    <HorizontalLayout name="work_args_area" height="72" bkcolor="#FF6B93B2">
+      <HorizontalLayout name="work_args_area" height="72" bordersize="1" bordercolor="#FF111111" inset="200,4,200,4">
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_freq" text="工作频率(kHz)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_freq" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_freq_num" text="循环周次" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_freq_num" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_amplitude" text="底端振幅(um)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_amplitude" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_max_stress" text="最大应力(MPa)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_max_stress" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_static_load" text="静载(MPa)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_static_load" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <Button name="args_area_name_stress_ratio" text="应力比" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
+          </Container>
+          <Button name="args_area_value_stress_ratio" text="9999" font="3"  enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+        </VerticalLayout>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--body-->
+    <HorizontalLayout name="body" bkcolor="#FFAAAAAA" inset="0,2,0,1">
+      <HorizontalLayout>
+        <TabLayout name="tab_main">
+          <!--tab_main_page_first* use one tab page-->
+          <ChildLayout xmlfile="tab_main_page_first_axially.xml"/>
+          <ChildLayout xmlfile="tab_main_page_first_stresses.xml"/>
+          <ChildLayout xmlfile="tab_main_page_first_th3point.xml"/>
+          <ChildLayout xmlfile="tab_main_page_first_vibration.xml"/>
+          <ChildLayout xmlfile="tab_main_page_second.xml"/>
+          <ChildLayout xmlfile="tab_main_page_three.xml"/>
+        </TabLayout>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--body.tab.button-->
+    <HorizontalLayout name="ui_tab_button" height="26" bkcolor="#FF6B93B2">
+      <Option name="body_tab_buton_specimen_design" text="试件设计" textcolor="#FF386382" font="5" pos="0, 0, 90, 26" float="true" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true"/>
+      <Option name="body_tab_buton_exp_exec" text="试验执行" textcolor="#FF386382" font="5" pos="90, 0, 180, 26" float="true" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" />
+      <Option name="body_tab_button_static_carrier_aircraft" text="静载机测试" textcolor="#FF386382" font="5" pos="180, 0, 280, 26" float="true" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+    </HorizontalLayout>
+    <!--status.bar-->
+    <HorizontalLayout name="ui_status_bar" height="34" bkcolor="#FFFFFFFF" bordersize="1">
+      <Text text="{c #386382}脱机{/c}" pos="0, 10, 32, 24" float="true" font="9" showhtml="true"/>
+      <Text text="{c #386382}设备数量:{/c}" pos="36, 10, 100, 24" float="true" font="9" showhtml="true"/>
+      <VerticalLayout valign="center">
+        <Control height="10"/>
+        <Text text="{c #386382}2024/7/20 18:43:20{/c}" align="right" font="9" showhtml="true"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window> 

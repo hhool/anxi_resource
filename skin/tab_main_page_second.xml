@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="960,540" roundcorner="4,4,4,4">
+    <HorizontalLayout name="tab_page_second" bordersize="1">
+        <VerticalLayout>
+            <HorizontalLayout name="tab_page_second_top">
+                <VerticalLayout name="tab_page_second_top_left">
+                    <HorizontalLayout name="ui_tab_button_graph_data" width="240" height="26">
+                        <Option pos="0, 0, 78, 26" float="true" text="图形" name="tab_graph" textcolor="#FF386382" font="3" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab_graph_data" selected="true"/>
+                        <Option pos="80, 0, 158, 26" float="true" text="数据" name="tab_data" textcolor="#FF386382" font="3" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab_graph_data" />
+                    </HorizontalLayout>
+                    <TabLayout name="tab_graph_data" float="false" bordersize="0" bkcolor="#FF757676">
+                        <HorizontalLayout name="tab_graph_data_first_graph" font="4" bordersize="1">
+                            <VerticalLayout>
+                                <HorizontalLayout name="graph_settings_first" height="18">
+                                    <HorizontalLayout name="graph_settings_first_pages" align="left" width="160">
+                                        <Option name="graph_settings_last_hour" text="上一小时"/>
+                                        <Option name="graph_settings_current_hour" text="当前小时"/>
+                                    </HorizontalLayout>
+                                    <Control align="center"/>
+                                    <HorizontalLayout name="graph_settings_first_display" align="right" width="100">
+                                        <CheckBox name="graph_settings_current_hour" text="总是显示最新"/>
+                                    </HorizontalLayout>
+                                </HorizontalLayout>
+                                <HorizontalLayout name="graph_canvas">
+                                    <Button name="graph_canvas_1" text="graph_canvas_1" bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF"/>
+                                    <Button name="graph_canvas_2" text="graph_canvas_2" bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF"/>
+                                </HorizontalLayout>
+                                <HorizontalLayout name="graph_settings_tail" height="18" bkcolor="#FF808080">
+                                    <HorizontalLayout name="graph_settings_tail_pages" align="left" width="160">
+                                        <Button name="graph_settings_pre_page" text="上一页" font="2" textcolor="#FFFFFFFF" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                                        <Button name="graph_settings_next_page" text="下一页" font="2" textcolor="#FFFFFFFF" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                                    </HorizontalLayout>
+                                    <Control align="center"/>
+                                    <HorizontalLayout name="graph_settings_tail_minitue" align="right" width="270">
+                                        <Option name="graph_settings_5_minite" text="5分钟"/>
+                                        <Option name="graph_settings_10_minite" text="10分钟"/>
+                                        <Option name="graph_settings_30_minite" text="30分钟"/>
+                                        <Option name="graph_settings_60_minite" text="60分钟"/>
+                                    </HorizontalLayout>
+                                </HorizontalLayout>
+                            </VerticalLayout>
+                        </HorizontalLayout>
+                        <HorizontalLayout name="tab_graph_data_first_data" bordersize="1">
+                            <List name="domainlist" bkcolor="#FFFFFFFF" inset="0,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" itembkcolor="#FFE2DDDF" itemaltbk="true" hscrollbar="false" menu="true">
+                                <ListHeader height="24" menu="true">
+                                    <ListHeaderItem text="No" font="5" textcolor="#FF386382" width="60" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                                    <ListHeaderItem text="循环次数" font="5" textcolor="#FF386382" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                                    <ListHeaderItem text="频率(kHz)" font="5" textcolor="#FF386382" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                                    <ListHeaderItem text="最大应力(MPa)" font="5" textcolor="#FF386382" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                                    <ListHeaderItem text="试件底端振幅(um)" font="5" textcolor="#FF386382" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                                </ListHeader>
+                            </List>
+                            <VerticalLayout width="168">
+                                <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
+                                    <Container width="4"/>
+                                    <Label text="取样区间" font="2" textcolor="#FFFFFFFF" align="left"/>
+                                </HorizontalLayout>
+                                <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="8"/>
+                                <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                                    <Container width="8"/>
+                                    <Option text="指数" font="2" textcolor="#FFFFFFFF" height="18"/>
+                                    <Option text="线性" font="2" textcolor="#FFFFFFFF" height="18"/>
+                                </HorizontalLayout>
+                                <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
+                                    <Container height="4"/>
+                                    <HorizontalLayout>
+                                        <Container width="8"/>
+                                        <Label text="开始循环(100ms)" font="2" textcolor="#FFFFFFFF"/>
+                                    </HorizontalLayout>
+                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                </VerticalLayout>
+                                <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
+                                    <Container height="4"/>
+                                    <HorizontalLayout>
+                                        <Container width="8"/>
+                                        <Label text="结束循环(100ms)" font="3" textcolor="#FFFFFFFF"/>
+                                    </HorizontalLayout>
+                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                </VerticalLayout>
+                                <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
+                                    <Container height="4"/>
+                                    <HorizontalLayout>
+                                        <Container width="8"/>
+                                        <Label text="采样间隔(20ms)" font="3" textcolor="#FFFFFFFF"/>
+                                    </HorizontalLayout>
+                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                </VerticalLayout>
+                            </VerticalLayout>
+                        </HorizontalLayout>
+                    </TabLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+            <HorizontalLayout name="tab_page_second_bottom" text="tab_page_second_bottom" height="96" bordersize="1" bordercolor="#FF000000">
+                <VerticalLayout inset="0,1,1,0" bkcolor="#FF323232">
+                    <HorizontalLayout bordersize="1" align="left" height="16">
+                        <Container width="4"/>
+                        <CheckBox name="exp_clip_set" text="试验间断设定" font="2" align="left" selected="true"/>
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" bkcolor="#FF808080">
+                        <HorizontalLayout>
+                            <Container width="4"/>
+                            <Label text="激振时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
+                            <Edit text="50" font="3" float="true" pos="112, 26, 248, 54"/>
+                            <Text text="=5S" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
+                        </HorizontalLayout>
+                        <HorizontalLayout>
+                            <Container width="4"/>
+                            <Label text="停止时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
+                            <Edit text="50" font="3" float="true" pos="112, 26, 248, 54"/>
+                            <Text text="=5S" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
+                        </HorizontalLayout>
+                    </HorizontalLayout>
+                </VerticalLayout>
+                <VerticalLayout inset="1,1,0,0" bkcolor="#FF323232">
+                    <HorizontalLayout bordersize="1" align="left" height="16">
+                        <Container width="4"/>
+                        <Label text="试验终止条件设定" font="4" textcolor="#FFFFFFFF"/>
+                    </HorizontalLayout>
+                    <HorizontalLayout bordersize="1" bkcolor="#FF808080">
+                        <HorizontalLayout>
+                            <Container width="4"/>
+                            <Label text="最大循环周次(cycle)" font="4" textcolor="#FFFFFFFF"/>
+                            <Edit text="1" font="3" float="true" pos="128, 26, 248, 54"/>
+                            <Text text="x10^" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
+                            <Edit text="1" font="3" float="true" pos="288, 26, 324, 54"/>
+                        </HorizontalLayout>
+                        <HorizontalLayout>
+                            <Container width="4"/>
+                            <Label text="频率动态波范围(Hz)" font="2" textcolor="#FFFFFFFF"/>
+                            <Edit text="50" font="3" float="true" pos="136, 26, 288, 54"/>
+                        </HorizontalLayout>
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout name="tab_page_second_right" float="false" width="160" bordersize="0" inset="2,0,2,0">
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
+                <Container width="4"/>
+                <Label text="试验准备" font="2" textcolor="#FFFFFFFF" align="left"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="静载机清零" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="静载机保载" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="循环次数复位" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
+                <Container width="4"/>
+                <Label text="试验实施" font="2" textcolor="#FFFFFFFF" align="left" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="开始测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="暂停测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+                <Container width="1"/>
+                <Button text="停止测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
+                <Container width="4"/>
+                <Label text="设备准备" font="2" textcolor="#FFFFFFFF" align="left"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
+                <Container width="1"/>
+                <Button text="静载机上升" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
+                <Container width="1"/>
+                <Button text="静载机下降" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
+                <Container width="1"/>
+                <Button text="静载机停止" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
+                <Container width="1"/>
+                <Button text="振幅校准" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

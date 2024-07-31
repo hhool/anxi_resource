@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="360,240" mininfo="360,240" caption="0,0,0,0" roundcorner="4,4,4,4">
+  <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
+  <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
+  <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
+  <Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
+  <Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
+  <Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
+  <Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
+  <Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
+  <Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
+  <Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+  <Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
+  <Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
+  <VerticalLayout bkcolor="#FFAAAAAA" bordersize="2" bordercolor="#FF0934DA">
+    <!--header-->
+    <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
+      <Button name="" width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'"  />
+      <HorizontalLayout>
+        <Control width="26"/>
+        <Label name="apptitle" text="多功能超声波疲劳试验系统v1.0" font="0" textcolor="#FF0AF0FF" />
+      </HorizontalLayout>
+      <HorizontalLayout height="25" width="43">
+        <Button name="closebtn" tooltip="关闭" height="18" width="43" normalimage="close.png" hotimage="close_h.png" pushedimage="close_p.png"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--body-->
+    <HorizontalLayout name="body">
+      <!--body.backgroud-->
+      <VerticalLayout name="body.background" bkcolor="#FF6B93B2" bordersize="1" bordercolor="#FF0934DA" roundcorner="4,4,4,4">
+        <VerticalLayout height="32" />
+        <HorizontalLayout>
+          <Label text="多功能超声波疲劳试验系统" font="2" textcolor="#FF000000" align="center"/>
+        </HorizontalLayout>
+        <VerticalLayout height="2"/>
+        <HorizontalLayout>
+          <Label text="版本：v1.0" font="3" textcolor="#FF000000" align="center"/>
+        </HorizontalLayout>
+        <VerticalLayout height="2"/>
+        <HorizontalLayout>
+          <Label text="内部版本号：3234fadfefd" font="3" textcolor="#FF000000" align="center"/>
+        </HorizontalLayout>
+        <VerticalLayout height="2"/>
+        <HorizontalLayout>
+          <Label text="版权所有：xxxxxxxx科技有限公司" font="3" textcolor="#FF000000" align="center"/>
+        </HorizontalLayout>
+        <VerticalLayout height="2"/>
+        <HorizontalLayout>
+          <Label text="联系方式：xxxxxxxxx" font="3" textcolor="#FF000000" align="center"/>
+        </HorizontalLayout>
+        <VerticalLayout height="32"/>
+        </VerticalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="960,540" mininfo="960,540" caption="0,0,0,0" roundcorner="4,4,4,4">
+  <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
+  <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
+  <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
+  <Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
+  <Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
+  <Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
+  <Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
+  <Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
+  <Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
+  <Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+  <Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
+  <Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
+  <VerticalLayout bkcolor="#FFAAAAAA" bordersize="2" bordercolor="#FF0934DA">
+    <!--header-->
+    <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
+      <Button name="" width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'"  />
+      <HorizontalLayout>
+        <Control width="26"/>
+        <Label name="apptitle" text="多功能超声波疲劳试验系统v1.0" font="0" textcolor="#FF0AF0FF" />
+      </HorizontalLayout>
+      <HorizontalLayout height="25" width="43">
+        <Button name="closebtn" tooltip="关闭" height="18" width="43" normalimage="close.png" hotimage="close_h.png" pushedimage="close_p.png"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--body-->
+    <HorizontalLayout name="body" bkcolor="#FF6B93B2">
+      <VerticalLayout inset="40,0,4,4">
+        <Control width="100"/>
+        <Label  name="work_axially_symmetrical" text="多功能超声波疲劳试验系统v1.0" height="30" width="360" font="1" bordersize="1"/>
+        <Control width="1"/>
+      </VerticalLayout>
+      <VerticalLayout inset="4,0,4,4" childpadding="4">
+        <Control height="120"/>
+        <Button  name="work_axially_symmetrical" text="轴向对称拉压疲劳试验" height="30" width="360" font="3" textcolor="#FF386382" valign="center"  normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Control height="20"/>
+        <Button name="work_stresses_adjustable" text="可调应力轴向拉压疲劳试验" height="30" width="360" font="3" textcolor="#FF386382" valign="center"  normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Control height="20"/>
+        <Button name="work_3point_bending" text="三点弯曲疲劳试验" height="30" width="360" font="3" textcolor="#FF386382" valign="center"  normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Control height="20"/>
+        <Button name="work_vibration_bending" text="震动弯曲疲劳试验" height="30" width="360" font="3" textcolor="#FF386382" valign="center"  normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+        <Control height="20"/>
+        <Button  name="work_pilot_e10c" text="万测试验TestPilot_E10C" height="30" width="360" font="3" textcolor="#FF386382" valign="center"  normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+    <!--statusbar-->
+    <HorizontalLayout height="34" bkcolor="#FFFFFFFF" bordersize="1">
+      <Control width="4"/>
+      <Label text="版权所有: xxxxxxxx科技有限公司" font="9" align="left"/>
+      <Label text="软件注册号: 12123244323432R" font="9" align="right" />
+      <Control width="4"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

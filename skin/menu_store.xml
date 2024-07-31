@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" size="160,62">
+	<Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
+	<Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
+	<Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
+	<Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
+	<Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
+	<Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
+	<Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
+	<Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
+	<Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
+	<Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+	<Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
+	<Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
+	<VerticalLayout bkimage="file='menu_bk.png' corner='40,8,8,8'" hole="false">
+		<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF0000FF">
+			<ListContainerElement name="menu_store_item_exp_record" height="22" inset="40,0,0,0">
+				<Label text="试验记录" mouse="false"/>
+			</ListContainerElement>
+			<ListContainerElement name="menu_store_item_com_record" height="22" inset="40,0,0,0">
+				<Label text="通讯记录" mouse="false"/>
+			</ListContainerElement>
+		</List>
+	</VerticalLayout>
+</Window>
