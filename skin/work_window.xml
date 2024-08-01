@@ -92,12 +92,12 @@
       <HorizontalLayout>
         <TabLayout name="tab_main">
           <!--tab_main_page_first* use one tab page-->
-          <ChildLayout xmlfile="tab_main_page_first_axially.xml"/>
-          <ChildLayout xmlfile="tab_main_page_first_stresses.xml"/>
-          <ChildLayout xmlfile="tab_main_page_first_th3point.xml"/>
-          <ChildLayout xmlfile="tab_main_page_first_vibration.xml"/>
-          <ChildLayout xmlfile="tab_main_page_second.xml"/>
-          <ChildLayout xmlfile="tab_main_page_three.xml"/>
+          <Include source="tab_main_page_first_axially.xml"/>
+          <Include source="tab_main_page_first_stresses.xml"/>
+          <Include source="tab_main_page_first_th3point.xml"/>
+          <Include source="tab_main_page_first_vibration.xml"/>
+          <Include source="tab_main_page_second.xml"/>
+          <Include source="tab_main_page_three.xml"/>
         </TabLayout>
       </HorizontalLayout>
     </HorizontalLayout>

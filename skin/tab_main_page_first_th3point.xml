@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--item 2 th3point-->
 <Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="960,540" roundcorner="4,4,4,4">
-    <HorizontalLayout name="tab_page_first">
+    <HorizontalLayout virtualwnd="WorkWindowFirstPageTh3pointBending" name="tab_page_first">
         <VerticalLayout name="tab_page_first_left" width="384" bordersize="1" padding="0,0,1,0">
             <HorizontalLayout bordersize="1" bkcolor="#FF323232">
                 <Label text="试验方案" font="2" textcolor="#FFFFFFFF" align="left" height="18"/>

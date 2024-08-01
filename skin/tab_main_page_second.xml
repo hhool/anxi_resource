@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="960,540" roundcorner="4,4,4,4">
-    <HorizontalLayout name="tab_page_second" bordersize="1">
+    <HorizontalLayout virtualwnd="WorkWindowSecondPage" name="tab_page_second" bordersize="1">
         <VerticalLayout>
             <HorizontalLayout name="tab_page_second_top">
                 <VerticalLayout name="tab_page_second_top_left">

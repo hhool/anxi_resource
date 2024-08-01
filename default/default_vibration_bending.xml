@@ -12,7 +12,7 @@
 <stress_ratio>-1.000000</stress_ratio>
 </base_param>
 <result type="vibration">
-<f_eamplitude_um>8.500000</f_eamplitude_um>
+<f_eamplitude>8.500000</f_eamplitude>
 <f_dc_stress_MPa>24.500000</f_dc_stress_MPa>
 <f_specimen_length_parallel_section_L1>3.700000</f_specimen_length_parallel_section_L1>
 <f_specimen_radius_arc_R1>3.000000</f_specimen_radius_arc_R1>

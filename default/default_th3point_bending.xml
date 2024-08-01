@@ -12,7 +12,7 @@
 <stress_ratio>0.500000</stress_ratio>
 </base_param>
 <result type="th3point">
-<f_eamplitude_um>29.000000</f_eamplitude_um>
+<f_eamplitude>29.000000</f_eamplitude>
 <f_dc_stress_MPa>6.200000</f_dc_stress_MPa>
 <f_static_load_MPa>547.500000</f_static_load_MPa>
 <f_specimen_width_B>10.000000</f_specimen_width_B>
