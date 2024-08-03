@@ -22,8 +22,15 @@
                                     </HorizontalLayout>
                                 </HorizontalLayout>
                                 <HorizontalLayout name="graph_canvas">
-                                    <Button name="graph_canvas_1" text="graph_canvas_1" bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF"/>
-                                    <Button name="graph_canvas_2" text="graph_canvas_2" bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF"/>
+                                    <VerticalLayout bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF">
+                                        <Button name="graph_canvas_title" text="底端振幅" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="2,0,0,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
+                                        <Button name="graph_canvas_1" text="graph_canvas_1" />
+                                    </VerticalLayout>
+
+                                    <VerticalLayout bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF">
+                                        <Button name="graph_canvas_title" text="静载" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="2,0,0,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
+                                        <Button name="graph_canvas_2" text="graph_canvas_2"/>
+                                    </VerticalLayout>
                                 </HorizontalLayout>
                                 <HorizontalLayout name="graph_settings_tail" height="18" bkcolor="#FF808080">
                                     <HorizontalLayout name="graph_settings_tail_pages" align="left" width="160">
@@ -140,15 +147,15 @@
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="静载机清零" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_sa_clear" text="静载机清零" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="静载机保载" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name = "btn_sa_setting" text="静载机保载" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="循环次数复位" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name = "btn_sa_reset" text="循环次数复位" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
                 <Container width="4"/>
@@ -156,15 +163,15 @@
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="开始测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_exp_start" text="开始测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="暂停测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_exp_pause" text="暂停测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
-                <Button text="停止测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name ="btn_exp_stop" text="停止测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="left" height="16">
                 <Container width="4"/>
@@ -172,19 +179,19 @@
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
                 <Container width="1"/>
-                <Button text="静载机上升" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_sa_up" text="静载机上升" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
                 <Container width="1"/>
-                <Button text="静载机下降" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_sa_down" text="静载机下降" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
                 <Container width="1"/>
-                <Button text="静载机停止" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_sa_stop" text="静载机停止" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" align="center" height="32">
                 <Container width="1"/>
-                <Button text="振幅校准" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                <Button name="btn_aa_setting" text="振幅校准" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
         </VerticalLayout>
     </HorizontalLayout>

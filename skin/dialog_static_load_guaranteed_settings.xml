@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="360,240" mininfo="360,240" caption="0,0,0,36" roundcorner="4,4,4,4">
+    <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
+    <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
+    <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
+    <Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
+    <Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
+    <Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
+    <Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
+    <Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
+    <Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
+    <Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+    <Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
+    <Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
+    <Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
+    <VerticalLayout bkcolor="#FFAAAAAA" bordersize="2" bordercolor="#FF0934DA">
+        <!--header-->
+        <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
+            <Button width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'" />
+            <HorizontalLayout>
+                <Control width="26"/>
+                <Label name="apptitle" text="保载参数" font="0" textcolor="#FF0AF0FF" />
+            </HorizontalLayout>
+            <HorizontalLayout height="25" width="43">
+                <Button name="closebtn" tooltip="关闭" height="18" width="43" normalimage="close.png" hotimage="close_h.png" pushedimage="close_p.png"/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <!--body-->
+        <HorizontalLayout name="body">
+            <!--body.settings-->
+            <HorizontalLayout name="body.settings" bkcolor="#FF000000">
+                <!--body.static_load_settings-->
+                <VerticalLayout name="body.static_load_settings" bkcolor="#FF6B93B2" bordersize="1" bordercolor="#FF323232">
+                    <HorizontalLayout bordersize="1" bkcolor="#FF323232" height="24">
+                        <Label text="参数设置" font="3" textcolor="#FFFFFFFFFF" align="left" padding="2,0,0,0"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="12" />
+                    <HorizontalLayout height="18">
+                        <Container width="48"/>
+                        <Option name="tab_page_three_left_move_up" text="向上移动" textcolor="#FFFFFFFF" />
+                        <Option name="tab_page_three_left_move_down" text="向下移动" textcolor="#FFFFFFFF" selected="true"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="8" />
+                    <HorizontalLayout height="18">
+                        <Container width="48"/>
+                        <Option name="tab_page_three_left_pull" text="拉" textcolor="#FFFFFFFF"/>
+                        <Option name="tab_page_three_left_push" text="压" textcolor="#FFFFFFFF" selected="true"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="12" />
+                    <HorizontalLayout pos="0,116,0,148">
+                        <Container width="48"/>
+                        <Label text="保力(速度):" font="2" textcolor="#FFFFFFFF" width="96" height="32"/>
+                        <Edit name="tab_page_three_left_speed" text="50" font="3" algin="left" float="false" height="32" width="96"/>
+                        <Container width="8"/>
+                        <Label text="mm/min" font="2" textcolor="#FFFFFFFF"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="1"/>
+                    <HorizontalLayout pos="0,148,0,180">
+                        <Container width="48"/>
+                        <Label text="停止(保力值):" font="2" textcolor="#FFFFFFFF" float="false" width="96" height="32"/>
+                        <Edit name="tab_page_three_left_speed" text="100" font="3" algin="left" float="false" height="32" width="96"/>
+                        <Container width="8"/>
+                        <Label text="N" font="2" textcolor="#FFFFFFFF"/>
+                    </HorizontalLayout>
+                    <Container height="8"/>
+                    <HorizontalLayout height="1" bordersize="1" bordercolor="#FF000000"/>
+                    <Container height="2"/>
+                    <HorizontalLayout height="30">
+                        <Container width="80"/>
+                        <Button name="btn_ok" text="确认" font="2" textcolor="#FF386382" align="center" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+                        <Container width="80"/>
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+            <!--body.settings-->
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

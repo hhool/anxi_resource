@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="360,240" mininfo="360,240" caption="0,0,0,0" roundcorner="4,4,4,4">
+<Window size="360,240" mininfo="360,240" caption="0,0,0,36" roundcorner="4,4,4,4">
   <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
   <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
   <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
@@ -15,7 +15,7 @@
   <VerticalLayout bkcolor="#FFAAAAAA" bordersize="2" bordercolor="#FF0934DA">
     <!--header-->
     <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
-      <Button name="" width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'"  />
+      <Button width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'" />
       <HorizontalLayout>
         <Control width="26"/>
         <Label name="apptitle" text="多功能超声波疲劳试验系统v1.0" font="0" textcolor="#FF0AF0FF" />
@@ -49,7 +49,7 @@
           <Label text="联系方式：xxxxxxxxx" font="3" textcolor="#FF000000" align="center"/>
         </HorizontalLayout>
         <VerticalLayout height="32"/>
-        </VerticalLayout>
+      </VerticalLayout>
     </HorizontalLayout>
   </VerticalLayout>
 </Window>
