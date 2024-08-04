@@ -83,7 +83,7 @@
           <Container>
             <Button name="args_area_name_stress_ratio" text="应力比" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
           </Container>
-          <Button name="args_area_value_stress_ratio" text="9999" font="3"  enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+          <Button name="args_area_value_stress_ratio" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
         </VerticalLayout>
       </HorizontalLayout>
     </HorizontalLayout>
@@ -109,12 +109,7 @@
     </HorizontalLayout>
     <!--status.bar-->
     <HorizontalLayout name="ui_status_bar" height="34" bkcolor="#FFFFFFFF" bordersize="1">
-      <Text text="{c #386382}脱机{/c}" pos="0, 10, 32, 24" float="true" font="9" showhtml="true"/>
-      <Text text="{c #386382}设备数量:{/c}" pos="36, 10, 100, 24" float="true" font="9" showhtml="true"/>
-      <VerticalLayout valign="center">
-        <Control height="10"/>
-        <Text text="{c #386382}2024/7/20 18:43:20{/c}" align="right" font="9" showhtml="true"/>
-      </VerticalLayout>
+      <Include source="work_window_status_bar.xml"/>
     </HorizontalLayout>
   </VerticalLayout>
 </Window> 
