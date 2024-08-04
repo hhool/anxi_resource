@@ -36,35 +36,61 @@
           <VerticalLayout height="2" />
           <HorizontalLayout >
             <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_setting_a_com_port" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Combo name="com_port_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" selected="true" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr" text="2" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_ua" text="2" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="baud_rate" text="9600" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="baud_rate_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="1200" textpadding="4,1,1,1" />
+              <ListLabelElement text="2400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="4800" textpadding="4,1,1,1"/>
+              <ListLabelElement text="9600" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="19200" textpadding="4,1,1,1"/>
+              <ListLabelElement text="38400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="57600" textpadding="4,1,1,1"/>
+              <ListLabelElement text="115200" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="data_bits" text="8" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="data_bits_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="5" textpadding="4,1,1,1" />
+              <ListLabelElement text="6" textpadding="4,1,1,1"/>
+              <ListLabelElement text="7" textpadding="4,1,1,1"/>
+              <ListLabelElement text="8" selected="true" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="stop_bits" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="stop_bits_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" textpadding="4,1,1,1" />
+              <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="2" textpadding="4,1,1,1"/>
+              <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="parity" text="None" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="parity_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
+              <ListLabelElement text="odd" textpadding="4,1,1,1"/>
+              <ListLabelElement text="even" textpadding="4,1,1,1"/>
+              <ListLabelElement text="mark" textpadding="4,1,1,1"/>
+              <ListLabelElement text="space" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="16"/>
         </VerticalLayout>
@@ -76,35 +102,61 @@
           <VerticalLayout height="2" />
           <HorizontalLayout >
             <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_setting_b_com_port" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="COM1" selected="true" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
+            <Combo name="com_port_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="COM1" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM2" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_sl" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="baud_rate" text="9600" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="baud_rate_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="1200" textpadding="4,1,1,1" />
+              <ListLabelElement text="2400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="4800" textpadding="4,1,1,1"/>
+              <ListLabelElement text="9600" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="19200" textpadding="4,1,1,1"/>
+              <ListLabelElement text="38400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="57600" textpadding="4,1,1,1"/>
+              <ListLabelElement text="115200" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="data_bits" text="8" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="data_bits_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="5" textpadding="4,1,1,1" />
+              <ListLabelElement text="6" textpadding="4,1,1,1"/>
+              <ListLabelElement text="7" textpadding="4,1,1,1"/>
+              <ListLabelElement text="8" selected="true" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="stop_bits" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="stop_bits_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" textpadding="4,1,1,1" />
+              <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="2" textpadding="4,1,1,1"/>
+              <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="parity" text="None" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="parity_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
+              <ListLabelElement text="odd" textpadding="4,1,1,1"/>
+              <ListLabelElement text="even" textpadding="4,1,1,1"/>
+              <ListLabelElement text="mark" textpadding="4,1,1,1"/>
+              <ListLabelElement text="space" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="16"/>
         </VerticalLayout>
@@ -116,35 +168,61 @@
           <VerticalLayout height="2" />
           <HorizontalLayout >
             <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_setting_c_com_port" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="COM1" selected="true" textpadding="4,1,1,1" />
+            <Combo name="com_port_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM3" selected="true" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_ac" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="baud_rate" text="9600" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="baud_rate_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="1200" textpadding="4,1,1,1" />
+              <ListLabelElement text="2400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="4800" textpadding="4,1,1,1"/>
+              <ListLabelElement text="9600" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="19200" textpadding="4,1,1,1"/>
+              <ListLabelElement text="38400" textpadding="4,1,1,1"/>
+              <ListLabelElement text="57600" textpadding="4,1,1,1"/>
+              <ListLabelElement text="115200" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="data_bits" text="8" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="data_bits_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="5" textpadding="4,1,1,1" />
+              <ListLabelElement text="6" textpadding="4,1,1,1"/>
+              <ListLabelElement text="7" textpadding="4,1,1,1"/>
+              <ListLabelElement text="8" selected="true" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="stop_bits" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="stop_bits_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" textpadding="4,1,1,1" />
+              <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="2" textpadding="4,1,1,1"/>
+              <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="parity" text="None" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Combo name="parity_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
+              <ListLabelElement text="odd" textpadding="4,1,1,1"/>
+              <ListLabelElement text="even" textpadding="4,1,1,1"/>
+              <ListLabelElement text="mark" textpadding="4,1,1,1"/>
+              <ListLabelElement text="space" textpadding="4,1,1,1"/>
+            </Combo>
           </HorizontalLayout>
           <VerticalLayout height="16"/>
         </VerticalLayout>
