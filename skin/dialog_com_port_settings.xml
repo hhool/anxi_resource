@@ -37,9 +37,16 @@
           <HorizontalLayout >
             <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
             <Combo name="com_port_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="COM1" selected="true" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
-              <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM3" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM4" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM5" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM6" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM7" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM8" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM9" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM10" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
@@ -104,8 +111,15 @@
             <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
             <Combo name="com_port_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM2" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
               <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM4" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM5" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM6" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM7" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM8" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM9" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM10" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
@@ -171,7 +185,14 @@
             <Combo name="com_port_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
-              <ListLabelElement text="COM3" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM4" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM5" textpadding="4,1,1,1"/>
+              <ListLabelElement text="COM6" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM7" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM8" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM9" textpadding="4,1,1,1" />
+              <ListLabelElement text="COM10" selected="true" textpadding="4,1,1,1" />
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
