@@ -53,13 +53,13 @@
           <Container>
             <Button name="args_area_name_freq" text="工作频率(kHz)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
           </Container>
-          <Button name="args_area_value_freq" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
+          <Button name="args_area_value_freq" text="" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
         </VerticalLayout>
         <VerticalLayout>
           <Container>
             <Button name="args_area_name_freq_num" text="循环周次" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
           </Container>
-          <Button name="args_area_value_freq_num" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
+          <Button name="args_area_value_freq_num" text="0" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" float="false" height="36" algin="center" textcolor="#FF000000"/>
         </VerticalLayout>
         <VerticalLayout>
           <Container>
@@ -77,7 +77,7 @@
           <Container>
             <Button name="args_area_name_static_load" text="静载(MPa)" font="3" enabled="false" disabledtextcolor="#FFFFFFFF" width="128" height="36" algin="center" textcolor="#FFFFFFFF"/>
           </Container>
-          <Button name="args_area_value_static_load" text="9999" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
+          <Button name="args_area_value_static_load" text="0" font="3" enabled="false" disabledtextcolor="#FF000000" bordersize="1" bordercolor="FF386382" bkcolor="#FFADFF2F" float="false" height="36" algin="center" textcolor="#FF000000"/>
         </VerticalLayout>
         <VerticalLayout>
           <Container>

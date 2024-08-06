@@ -5,8 +5,8 @@
         <baud_rate>115200</baud_rate>
         <data_bits>8</data_bits>
         <stop_bits>1</stop_bits>
-        <parity>0</parity>
-        <flow_control>1</flow_control>
+        <parity>none</parity>
+        <flow_control>hardware</flow_control>
         <timeout>1000</timeout>
     </com_port>
 </com_settings>

@@ -2,7 +2,7 @@
 <Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="960,540" roundcorner="4,4,4,4">
     <Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
     <Default name="CheckBox" value="textcolor=&quot;#FFFFFFFF&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; disabledtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
-    <HorizontalLayout virtualwnd="WorkWindowThreePage" name="tab_page_three">
+    <HorizontalLayout virtualwnd="WorkWindowThirdPage" name="tab_page_three">
         <HorizontalLayout name="tab_page_three_left" id="" width="384" bkcolor="#FF323232" padding="0,0,1,0">
             <VerticalLayout height="212">
                 <HorizontalLayout bordersize="1" height="18">

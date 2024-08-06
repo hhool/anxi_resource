@@ -66,7 +66,7 @@
                                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                                     <Container width="8"/>
                                     <Option text="指数" font="2" textcolor="#FFFFFFFF" height="18"/>
-                                    <Option text="线性" font="2" textcolor="#FFFFFFFF" height="18"/>
+                                    <Option text="线性" font="2" textcolor="#FFFFFFFF" height="18" selected="true"/>
                                 </HorizontalLayout>
                                 <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
                                     <Container height="4"/>
@@ -74,7 +74,7 @@
                                         <Container width="8"/>
                                         <Label text="开始循环(100ms)" font="2" textcolor="#FFFFFFFF"/>
                                     </HorizontalLayout>
-                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                    <Edit name="edit_sampling_start_pos" text="0" font="3" padding="8,0,8,0"/>
                                 </VerticalLayout>
                                 <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
                                     <Container height="4"/>
@@ -82,7 +82,7 @@
                                         <Container width="8"/>
                                         <Label text="结束循环(100ms)" font="3" textcolor="#FFFFFFFF"/>
                                     </HorizontalLayout>
-                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                    <Edit name="edit_sampling_end_pos" text="0" font="3" padding="8,0,8,0"/>
                                 </VerticalLayout>
                                 <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
                                     <Container height="4"/>
@@ -90,7 +90,7 @@
                                         <Container width="8"/>
                                         <Label text="采样间隔(20ms)" font="3" textcolor="#FFFFFFFF"/>
                                     </HorizontalLayout>
-                                    <Edit name="duration_of_loop" text="0" font="3" padding="8,0,8,0"/>
+                                    <Edit name="edit_sampling_interval" text="50" font="3" padding="8,0,8,0"/>
                                 </VerticalLayout>
                             </VerticalLayout>
                         </HorizontalLayout>
@@ -106,14 +106,14 @@
                     <HorizontalLayout bordersize="1" bkcolor="#FF808080">
                         <HorizontalLayout>
                             <Container width="4"/>
-                            <Label text="激振时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
+                            <Label name="exp_clip_time_duration" text="激振时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
                             <Edit text="50" font="3" float="true" pos="112, 26, 248, 54"/>
                             <Text text="=5S" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="停止时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
-                            <Edit text="50" font="3" float="true" pos="112, 26, 248, 54"/>
+                            <Edit name="exp_clip_time_paused" text="50" font="3" float="true" pos="112, 26, 248, 54"/>
                             <Text text="=5S" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
@@ -127,14 +127,14 @@
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="最大循环周次(cycle)" font="4" textcolor="#FFFFFFFF"/>
-                            <Edit text="1" font="3" float="true" pos="128, 26, 248, 54"/>
+                            <Edit name="edit_exp_max_cycle_count" text="1" font="3" float="true" pos="128, 26, 248, 54"/>
                             <Text text="x10^" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
-                            <Edit text="1" font="3" float="true" pos="288, 26, 324, 54"/>
+                            <Edit name="edit_exp_max_cycle_power" text="9" font="3" float="true" pos="288, 26, 324, 54"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="频率动态波范围(Hz)" font="2" textcolor="#FFFFFFFF"/>
-                            <Edit text="50" font="3" float="true" pos="136, 26, 288, 54"/>
+                            <Edit name="edit_frequency_fluctuations_range" text="50" font="3" float="true" pos="136, 26, 288, 54"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
                 </VerticalLayout>

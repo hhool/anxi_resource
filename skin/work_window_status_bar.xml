@@ -16,8 +16,8 @@
   <Default name="CheckBox" value="textcolor=&quot;#FFFFFFFF&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; disabledtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
   <!--work_window.status.bar-->
   <HorizontalLayout virtualwnd="WorkWindowStatusBar" name="work_window_status_bar" height="34" bkcolor="#FFFFFFFF" bordersize="1">
-    <Text text="{c #386382}脱机{/c}" pos="0, 10, 32, 24" float="true" font="9" showhtml="true"/>
-    <Text text="{c #386382}设备数量:{/c}" pos="36, 10, 100, 24" float="true" font="9" showhtml="true"/>
+    <Text name="status_bar_connected" text="{c #386382}脱机{/c}" pos="0, 10, 32, 24" float="true" font="9" showhtml="true"/>
+    <Text name="status_bar_num_of_device" text="{c #386382}设备数量:{/c}" pos="36, 10, 100, 24" float="true" font="9" showhtml="true"/>
     <VerticalLayout valign="center">
       <Control height="10"/>
       <Text name="status_bar_current_time" text="{c #386382}2024/7/20 18:43:20{/c}" align="right" font="9" showhtml="true"/>

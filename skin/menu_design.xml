@@ -13,7 +13,7 @@
 	<Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
 	<Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
 	<VerticalLayout bkimage="file='menu_bk.png' corner='40,8,8,8'" hole="false">
-		<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF0000FF">
+		<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF223323">
 			<ListContainerElement name="menu_design_item_connect" height="22" inset="40,0,0,0">
 				<Label text="链接" mouse="false"/>
 			</ListContainerElement>

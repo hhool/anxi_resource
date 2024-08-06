@@ -82,7 +82,6 @@
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
             <Combo name="stop_bits_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="none" textpadding="4,1,1,1" />
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
@@ -155,7 +154,6 @@
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
             <Combo name="stop_bits_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="none" textpadding="4,1,1,1" />
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
@@ -228,7 +226,6 @@
           <HorizontalLayout>
             <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
             <Combo name="stop_bits_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="none" textpadding="4,1,1,1" />
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
