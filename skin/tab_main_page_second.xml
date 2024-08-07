@@ -13,12 +13,12 @@
                             <VerticalLayout>
                                 <HorizontalLayout name="graph_settings_first" height="18">
                                     <HorizontalLayout name="graph_settings_first_pages" align="left" width="160">
-                                        <Option name="graph_settings_last_hour" text="上一小时"/>
-                                        <Option name="graph_settings_current_hour" text="当前小时"/>
+                                        <Option name="graph_settings_pre_hour" text="上一小时" group="time_mode"/>
+                                        <Option name="graph_settings_current_hour" text="当前小时" selected="true" group="time_mode"/>
                                     </HorizontalLayout>
                                     <Control align="center"/>
                                     <HorizontalLayout name="graph_settings_first_display" align="right" width="100">
-                                        <CheckBox name="graph_settings_current_hour" text="总是显示最新"/>
+                                        <CheckBox name="graph_settings_always_new" text="总是显示最新"/>
                                     </HorizontalLayout>
                                 </HorizontalLayout>
                                 <HorizontalLayout name="graph_canvas">
@@ -38,11 +38,11 @@
                                         <Button name="graph_settings_next_page" text="下一页" font="2" textcolor="#FFFFFFFF" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
                                     </HorizontalLayout>
                                     <Control align="center"/>
-                                    <HorizontalLayout name="graph_settings_tail_minitue" align="right" width="270">
-                                        <Option name="graph_settings_5_minite" text="5分钟"/>
-                                        <Option name="graph_settings_10_minite" text="10分钟"/>
-                                        <Option name="graph_settings_30_minite" text="30分钟"/>
-                                        <Option name="graph_settings_60_minite" text="60分钟"/>
+                                    <HorizontalLayout name="graph_settings_tail_range_minitues" align="right" width="270">
+                                        <Option name="graph_settings_5_minite" text="5分钟" group="time_range_mode"/>
+                                        <Option name="graph_settings_10_minite" text="10分钟" group="time_range_mode"/>
+                                        <Option name="graph_settings_30_minite" text="30分钟" group="time_range_mode"/>
+                                        <Option name="graph_settings_60_minite" text="60分钟" selected="true" group="time_range_mode"/>
                                     </HorizontalLayout>
                                 </HorizontalLayout>
                             </VerticalLayout>
@@ -65,8 +65,8 @@
                                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="8"/>
                                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                                     <Container width="8"/>
-                                    <Option text="指数" font="2" textcolor="#FFFFFFFF" height="18"/>
-                                    <Option text="线性" font="2" textcolor="#FFFFFFFF" height="18" selected="true"/>
+                                    <Option name="opt_sampling_exponent" text="指数" font="2" textcolor="#FFFFFFFF" height="18"/>
+                                    <Option name="opt_sampling_linear" text="线性" font="2" textcolor="#FFFFFFFF" height="18" selected="true"/>
                                 </HorizontalLayout>
                                 <VerticalLayout bordersize="1" bkcolor="#FF808080" align="center" height="64">
                                     <Container height="4"/>
@@ -106,8 +106,8 @@
                     <HorizontalLayout bordersize="1" bkcolor="#FF808080">
                         <HorizontalLayout>
                             <Container width="4"/>
-                            <Label name="exp_clip_time_duration" text="激振时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
-                            <Edit text="50" font="3" float="true" pos="112, 26, 248, 54"/>
+                            <Label text="激振时间(100ms)" font="4" textcolor="#FFFFFFFF"/>
+                            <Edit name="exp_clip_time_duration" text="50" font="3" float="true" pos="112, 26, 248, 54"/>
                             <Text text="=5S" font="3" textcolor="#FFFFFFFF" float="true" pos="248, 32, 288, 56"/>
                         </HorizontalLayout>
                         <HorizontalLayout>

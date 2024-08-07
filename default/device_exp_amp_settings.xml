@@ -1,0 +1,18 @@
+<exp_amplitude_settings>
+    <exp_power2amp_item>
+        <exp_power>20</exp_power>
+        <exp_amp>30</exp_amp>
+    </exp_power2amp_item>
+    <exp_power2amp_item>
+        <exp_power>40</exp_power>
+        <exp_amp>38</exp_amp>
+    </exp_power2amp_item>
+    <exp_power2amp_item>
+        <exp_power>60</exp_power>
+        <exp_amp>47</exp_amp>
+    </exp_power2amp_item>
+    <exp_power2amp_item>
+        <exp_power>80</exp_power>
+        <exp_amp>54</exp_amp>
+    </exp_power2amp_item>
+</exp_amplitude_settings>

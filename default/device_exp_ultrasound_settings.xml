@@ -1,0 +1,12 @@
+<device_exp_ultrasound_settings>
+    <sample_mode>exponent</sample_mode>
+    <sampling_start_pos>0</sampling_start_pos>
+    <sampling_end_pos>0</sampling_end_pos>
+    <sampling_interval>50</sampling_interval>
+    <exp_clipping_enable>enable</exp_clipping_enable>
+    <exp_clip_time_duration>50</exp_clip_time_duration>
+    <exp_clip_time_paused>50</exp_clip_time_paused>
+    <exp_max_cycle_count>1</exp_max_cycle_count>
+    <exp_max_cycle_power>9</exp_max_cycle_power>
+    <exp_frequency_fluctuations_range>50</exp_frequency_fluctuations_range>
+</device_exp_ultrasound_settings>
