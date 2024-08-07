@@ -44,25 +44,25 @@
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Label text="20%" font="3" textcolor="#FFFFFFFFFF" align="center"/>
             <Label text="-->" font="3" textcolor="#FFFFFFFFFF" align="center"/>
-            <Edit name="tab_page_three_left_amp_level_one" text="30" font="3" align="center" width="64" padding="24,0,0,0"/>
+            <Edit name="tab_page_three_left_amp_level_one" text="30" font="3" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Label text="40%" font="3" textcolor="#FFFFFFFFFF" align="center"/>
             <Label text="-->" font="3" textcolor="#FFFFFFFFFF" align="center"/>
-            <Edit name="tab_page_three_left_amp_level_two" text="38" font="3" align="center" width="64" padding="24,0,0,0"/>
+            <Edit name="tab_page_three_left_amp_level_two" text="38" font="3" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Label text="60%" font="3" textcolor="#FFFFFFFFFF" align="center"/>
             <Label text="-->" font="3" textcolor="#FFFFFFFFFF" align="center"/>
-            <Edit name="tab_page_three_left_amp_level_third" text="47" font="3" align="center" width="64" padding="24,0,0,0"/>
+            <Edit name="tab_page_three_left_amp_level_third" text="47" font="3" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Label text="80%" font="3" textcolor="#FFFFFFFFFF" align="center"/>
             <Label text="-->" font="3" textcolor="#FFFFFFFFFF" align="center"/>
-            <Edit name="tab_page_three_left_amp_level_fourth" text="54" font="3" align="center" width="64" padding="24,0,0,0"/>
+            <Edit name="tab_page_three_left_amp_level_fourth" text="54" font="3" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8"/>
           <VerticalLayout height="1" bordersize="1" bkcolor="#FF323232"/>

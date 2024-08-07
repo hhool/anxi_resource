@@ -52,7 +52,7 @@
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_ua" text="2" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_ua" text="2" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
@@ -124,7 +124,7 @@
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_sl" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_sl" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
@@ -196,7 +196,7 @@
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_ac" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000"/>
+            <Edit name="com_adr_ac" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>

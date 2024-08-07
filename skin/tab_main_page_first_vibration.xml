@@ -17,22 +17,22 @@
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,84,384,116">
                 <Container width="1"/>
                 <Label text="弹性模量(GPa):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32"/>
-                <Edit name="tm_page_first_left_elastic_vibration" text="116" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false"algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_elastic_vibration" text="116" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false"algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,116,384,148">
                 <Container width="1"/>
                 <Label text="密度(kg/m3):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32"/>
-                <Edit name="tm_page_first_left_density_vibration" text="4379" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_density_vibration" text="4379" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,148,384,180">
                 <Container width="1"/>
                 <Label text="最大应力(@x):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32"/>
-                <Edit name="tm_page_first_left_max_stress_vibration" text="208" font="3" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_max_stress_vibration" text="208" font="3" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,180,384,212">
                 <Container width="1"/>
                 <Label text="应力比:" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32"/>
-                <Edit name="tm_page_first_left_ratio_stress_vibration" text="-1" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_ratio_stress_vibration" text="-1" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF323232" float="true" pos="0,212,384,244" bkcolor="#FF222232" bordersize="1">
                 <Label text="设计参数" font="2" textcolor="#FFFFFFFF" align="right"/>
@@ -42,49 +42,49 @@
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,244,384,276">
                 <Container width="1"/>
                 <Label text="振幅A(um):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_amplitude_vibration" text="8.5" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_amplitude_vibration" text="8.5" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,276,384,308">
                 <Container width="1"/>
                 <Label text="应力位移系数Cs:" font="2" textcolor="#FFFFFFFF"float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_dc_stress_vibration" text="24.5" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_dc_stress_vibration" text="24.5" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,308,384,340">
                 <Container width="1"/>
                 <Label text="试验平行段长度:" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_length_parallel_section_vibration" text="3.7" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_length_parallel_section_vibration" text="3.7" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label text="L1" font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,340,384,372">
                 <Container width="1"/>
                 <Label text="试验圆弧段半径:" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_specimen_radius_arc_vibration" text="3.0" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_specimen_radius_arc_vibration" text="3.0" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label text="R1" font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,372,384,404">
                 <Container width="1"/>
                 <Label text="试验过渡段半径:" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_specimen_radius_transition_vibration" text="1.0" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_specimen_radius_transition_vibration" text="1.0" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label text="R2" font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,404,384,436">
                 <Container width="1"/>
                 <Label text="夹持段厚度:" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_thickness_clamp_section_vibration" text="5.2" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_thickness_clamp_section_vibration" text="5.2" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label text="d1" font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,436,384,468">
                 <Container width="1"/>
                 <Label text="试验段厚度(L0):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32" />
-                <Edit name="tm_page_first_left_thickness_exp_section_vibration" text="3.2" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"/>
+                <Edit name="tm_page_first_left_thickness_exp_section_vibration" text="3.2" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96"  maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label text="d2" font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>
             </HorizontalLayout>

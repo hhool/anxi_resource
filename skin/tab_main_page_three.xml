@@ -25,13 +25,13 @@
                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="false" pos="0,116,384,148">
                     <Container width="1"/>
                     <Label text="保力(速度):" font="2" textcolor="#FFFFFFFF" float="false" width="128" height="32"/>
-                    <Edit name="tab_page_three_left_speed" text="50" font="3" algin="left" float="false" height="32" width="96"/>
+                    <Edit name="tab_page_three_left_speed" text="50" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
                     <Label text="mm/min" font="2" textcolor="#FFFFFFFF"/>
                 </HorizontalLayout>
                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="false" pos="0,148,384,180">
                     <Container width="1"/>
                     <Label text="停止(保力值):" font="2" textcolor="#FFFFFFFF" float="false" width="128" height="32"/>
-                    <Edit name="tab_page_three_left_retention" text="0" font="3" algin="left" float="false" height="32" width="96"/>
+                    <Edit name="tab_page_three_left_retention" text="0" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
                     <Label text="N" font="2" textcolor="#FFFFFFFF"/>
                 </HorizontalLayout>
             </VerticalLayout>
