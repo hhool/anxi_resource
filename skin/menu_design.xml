@@ -19,7 +19,7 @@
 	<VerticalLayout bkimage="file='menu_bk.png' corner='40,8,8,8'" hole="false">
 		<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF223323">
 			<ListContainerElement name="menu_design_item_connect" height="22" inset="40,0,0,0">
-				<Label text="链接" mouse="false"/>
+				<Label text="连接" mouse="false"/>
 			</ListContainerElement>
 			<ListContainerElement name="menu_design_item_disconnect" height="22" inset="40,0,0,0">
 				<Label text="断开" mouse="false"/>
