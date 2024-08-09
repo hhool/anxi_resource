@@ -42,13 +42,13 @@
                     <HorizontalLayout width="136">
                         <Container width="16"/>
                         <Label text="位移" font="0" textcolor="#FFFFFFFF"/>
-                        <Label text="0.00" font="0" textcolor="#FFFFFFFF" align="center"/>
+                        <Label name="tab_page_three_label_displacement" text="0.00" font="0" textcolor="#FFFFFFFF" align="center"/>
                     </HorizontalLayout>
                     <Control width="64"/>
                     <HorizontalLayout width="156">
                         <Container width="16"/>
                         <Label text="力值(N)" font="0" textcolor="#FFFFFFFF"/>
-                        <Label text="0.00" font="0" textcolor="#FFFFFFFF" align="center"/>
+                        <Label name="tab_page_three_label_strength" text="0.00" font="0" textcolor="#FFFFFFFF" align="center"/>
                     </HorizontalLayout>
                 </HorizontalLayout>
                 <HorizontalLayout height="16" bkcolor="#FF323232">
