@@ -23,15 +23,15 @@
                     <Label text="测试选项" font="2" textcolor="#FFFFFFFF" align="left" height="18"/>
                 </HorizontalLayout>
                 <Container height="2"/>
-                <HorizontalLayout height="18" bkcolor="#FF808080">
+                <HorizontalLayout height="22" bkcolor="#FF808080">
                     <Container width="4"/>
-                    <Option name="tab_page_three_left_move_up" text="向上移动" textcolor="#FFFFFFFF" group="direction"/>
-                    <Option name="tab_page_three_left_move_down" text="向下移动" textcolor="#FFFFFFFF" selected="true" group="direction"/>
+                    <Option name="tab_page_three_left_move_up" text="向上移动" textcolor="#FFFFFFFF" enabled="false" group="direction"/>
+                    <Option name="tab_page_three_left_move_down" text="向下移动" textcolor="#FFFFFFFF" selected="true" enabled="false" group="direction"/>
                 </HorizontalLayout>
-                <HorizontalLayout height="18" bkcolor="#FF808080">
+                <HorizontalLayout height="22" bkcolor="#FF808080">
                     <Container width="4"/>
-                    <Option name="tab_page_three_left_pull" text="拉" textcolor="#FFFFFFFF" group="action"/>
-                    <Option name="tab_page_three_left_push" text="压" textcolor="#FFFFFFFF" selected="true" group="action"/>
+                    <Option name="tab_page_three_left_pull" text="拉" textcolor="#FFFFFFFF" group="action" enabled="false"/>
+                    <Option name="tab_page_three_left_push" text="压" textcolor="#FFFFFFFF" selected="true" enabled="false" group="action"/>
                 </HorizontalLayout>
                 <HorizontalLayout bordersize="1" bkcolor="#FF323232" float="false" pos="0,84,384,116">
                     <Label text="测试参数" font="2" textcolor="#FFFFFFFF" align="center" bordercolor="#FF222232" bordersize="1"/>
@@ -39,13 +39,15 @@
                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="false" pos="0,116,384,148">
                     <Container width="1"/>
                     <Label text="保力(速度):" font="2" textcolor="#FFFFFFFF" float="false" width="128" height="32"/>
-                    <Edit name="tab_page_three_left_speed" text="50" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Edit name="tab_page_three_left_speed" enabled="false" text="50" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Container width="8"/>
                     <Label text="mm/min" font="2" textcolor="#FFFFFFFF"/>
                 </HorizontalLayout>
                 <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="false" pos="0,148,384,180">
                     <Container width="1"/>
                     <Label text="停止(保力值):" font="2" textcolor="#FFFFFFFF" float="false" width="128" height="32"/>
-                    <Edit name="tab_page_three_left_retention" text="0" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Edit name="tab_page_three_left_retention" enabled="false" text="0" font="3" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Container width="8"/>
                     <Label text="N" font="2" textcolor="#FFFFFFFF"/>
                 </HorizontalLayout>
             </VerticalLayout>
@@ -73,11 +75,9 @@
                     </HorizontalLayout>
                 </HorizontalLayout>
                 <HorizontalLayout height="270">
-                    <List name="tab_page_three_list_send" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
-                        <ListLabelElement text="发送报文" align="left" padding="2,0,0,0"/>
+                    <List name="tab_page_three_list_send" itemfont="7" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
                     </List>
-                    <List name="tab_page_three_list_recv" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
-                        <ListLabelElement text="接收报文" align="left" padding="2,0,0,0"/>
+                    <List name="tab_page_three_list_recv" itemfont="7" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
                     </List>
                 </HorizontalLayout>
                 <HorizontalLayout height="16" bkcolor="#FF323232">
@@ -88,9 +88,7 @@
                     </HorizontalLayout>
                 </HorizontalLayout>
                 <HorizontalLayout>
-                    <List name="tab_page_three_list_recv_notify" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
-                        <ListLabelElement text="接收报文" align="left" padding="2,0,0,0"/>
-                        <ListLabelElement text="接收报文" align="left" padding="2,0,0,0"/>
+                    <List name="tab_page_three_list_recv_notify" itemfont="7" menu="true" header="hidden" vscrollbar="true" hscrollbar="true" bkcolor="#FFFFFFFF" inset="1,1,1,1" bordercolor="#FF888888" bordersize="1">
                     </List>
                 </HorizontalLayout>
             </VerticalLayout>

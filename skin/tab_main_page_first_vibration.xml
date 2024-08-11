@@ -33,7 +33,7 @@
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,84,384,116">
                 <Container width="1"/>
                 <Label text="弹性模量(GPa):" font="2" textcolor="#FFFFFFFF" align="center" float="false" width="128" height="32"/>
-                <Edit name="tm_page_first_left_elastic_vibration" text="116" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false"algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                <Edit name="tm_page_first_left_elastic_vibration" text="116" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,116,384,148">
                 <Container width="1"/>
@@ -64,7 +64,7 @@
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" float="true" pos="0,276,384,308">
                 <Container width="1"/>
-                <Label text="应力位移系数Cs:" font="2" textcolor="#FFFFFFFF"float="false" width="128" height="32" />
+                <Label text="应力位移系数Cs:" font="2" textcolor="#FFFFFFFF" float="false" width="128" height="32" />
                 <Edit name="tm_page_first_left_dc_stress_vibration" text="24.5" font="3" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
                 <Container width="1"/>
                 <Label font="2" textcolor="#FFFFFFFF" align="left" float="false" pos="224,0,384,32"/>

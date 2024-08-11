@@ -98,9 +98,13 @@
                 <Container width="1"/>
                 <Button name="btn_exp_start" text="开始测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
-            <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
+            <HorizontalLayout name="layout_exp_pause" bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
                 <Button name="btn_exp_pause" text="暂停测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
+            </HorizontalLayout>
+            <HorizontalLayout name="layout_exp_resume" bordersize="1" bkcolor="#FF808080" align="center" height="32" visible="false">
+                <Container width="1"/>
+                <Button name="btn_exp_resume" text="继续测试" font="3" textcolor="#FF386382" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bkcolor="#FF808080" align="center" height="32">
                 <Container width="1"/>
