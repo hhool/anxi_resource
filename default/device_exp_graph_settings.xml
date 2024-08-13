@@ -1,5 +1,5 @@
 <exp_graph_settings>
     <exp_graph_show_time_type>1</exp_graph_show_time_type>
     <exp_graph_always_new>1</exp_graph_always_new>
-    <exp_graph_range_minitues>3</exp_graph_range_minitues>
+    <exp_graph_range_minitues>0</exp_graph_range_minitues>
 </exp_graph_settings>

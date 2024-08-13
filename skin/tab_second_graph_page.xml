@@ -31,13 +31,14 @@
             </HorizontalLayout>
             <HorizontalLayout name="graph_canvas">
                 <VerticalLayout bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF">
-                    <Button name="graph_canvas_title" text="底端振幅" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="2,0,0,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
-                    <Button name="graph_canvas_1" text="graph_canvas_1" />
+                    <Button name="graph_amplitude_title" text="底端振幅" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="0,0,1,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
+                    <!--DMGraph-->
+                    <ActiveX name="graph_amplitude_canvas" clsid="{AAF89A51-7FC0-43B0-9F81-FFEFF6A8DB43}" delaycreate="false"/>
                 </VerticalLayout>
-
                 <VerticalLayout bordersize="1" bordercolor="#FF000000" bkcolor="#FFFFFFFF">
-                    <Button name="graph_canvas_title" text="静载" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="2,0,0,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
-                    <Button name="graph_canvas_2" text="graph_canvas_2"/>
+                    <Button name="graph_stress_title" text="静载" font="0" bkcolor="#FF323232" textcolor="#FF9ACD32" padding="1,0,0,0" height="24" enabled="false" disabledtextcolor="#FF9ACD32"/>
+                    <!--DMGraph-->
+                    <ActiveX name="graph_stress_canvas" clsid="{AAF89A51-7FC0-43B0-9F81-FFEFF6A8DB43}" delaycreate="false"/>
                 </VerticalLayout>
             </HorizontalLayout>
             <HorizontalLayout name="graph_settings_tail" height="18" bkcolor="#FF808080">
@@ -47,10 +48,10 @@
                 </HorizontalLayout>
                 <Control align="center"/>
                 <HorizontalLayout name="graph_settings_tail_range_minitues" align="right" width="270">
-                    <Option name="graph_settings_5_minite" text="5分钟" group="time_range_mode"/>
+                    <Option name="graph_settings_5_minite" text="5分钟" selected="true" group="time_range_mode"/>
                     <Option name="graph_settings_10_minite" text="10分钟" group="time_range_mode"/>
                     <Option name="graph_settings_30_minite" text="30分钟" group="time_range_mode"/>
-                    <Option name="graph_settings_60_minite" text="60分钟" selected="true" group="time_range_mode"/>
+                    <Option name="graph_settings_60_minite" text="60分钟" group="time_range_mode"/>
                 </HorizontalLayout>
             </HorizontalLayout>
         </VerticalLayout>
