@@ -1,46 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window size="720,270" mininfo="720,270" caption="0,0,0,36" roundcorner="4,4,4,4">
-  <Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
-  <Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
-  <Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
-  <Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
-  <Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
-  <Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
-  <Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
-  <Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
-  <Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
-  <Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+  <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
+  <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
+  <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
+  <Font id="3" name="微软雅黑" size="6" bold="false" default="false" />
+  <Font id="4" name="微软雅黑" size="7" bold="true" default="false" />
+  <Font id="5" name="微软雅黑" size="7" bold="false" default="false" />
+  <Font id="6" name="微软雅黑" size="8" bold="true" default="false" />
+  <Font id="7" name="微软雅黑" size="8" bold="false" default="false" />
+  <Font id="8" name="微软雅黑" size="9" bold="true" default="false" />
+  <Font id="9" name="微软雅黑" size="9" bold="false" default="false" />
   <Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
   <Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
-  <Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
-  <Default name="CheckBox" value="textcolor=&quot;#FFFFFFFF&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; disabledtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
+  <Font id="12" name="微软雅黑" size="11" bold="true" default="false" />
+  <Font id="13" name="微软雅黑" size="11" bold="false" default="false" />
+  <Font id="14" name="微软雅黑" size="12" bold="true" default="false" />
+  <Font id="15" name="微软雅黑" size="12" bold="false" default="false" />
+  <Font id="16" name="微软雅黑" size="13" bold="true" default="true" />
+  <Font id="17" name="微软雅黑" size="13" bold="false" default="false" />
+  <Font id="18" name="微软雅黑" size="14" bold="true" default="false" />
+  <Font id="19" name="微软雅黑" size="14" bold="false" default="false" />
+  <Font id="20" name="微软雅黑" size="15" bold="true" default="false" />
+  <Font id="21" name="微软雅黑" size="15" bold="false" default="false" />
+  <Font id="22" name="微软雅黑" size="16" bold="true" default="false" />
+  <Font id="23" name="微软雅黑" size="16" bold="false" default="false" />
+  <Font id="24" name="微软雅黑" size="17" bold="true" default="false" />
+  <Font id="25" name="微软雅黑" size="17" bold="false" default="false" />
+  <Font id="26" name="微软雅黑" size="18" bold="true" default="false" />
+  <Font id="27" name="微软雅黑" size="18" bold="false" default="false" />
+  <Default name="Option" value="textcolor=&quot;#FF666666&quot; hottextcolor=&quot;#FF333333&quot; selectedtextcolor=&quot;#FF666666&quot; disabledtextcolor=&quot;#FF999999&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='option_check.png' source='0,0,10,10' dest='0,5,10,15'&quot; normalimage=&quot;file='option_uncheck.png' source='0,0,10,10' dest='0,5,10,15'&quot; disabledimage=&quot;file='option_disable.png' source='0,0,10,10' dest='0,5,10,15'&quot;" />
+  <Default name="CheckBox" value="textcolor=&quot;#FF666666&quot; hottextcolor=&quot;#FF333333&quot; selectedtextcolor=&quot;#FF666666&quot; disabledtextcolor=&quot;#FF999999&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checkbox_check.png' dest='0,10,10,20'&quot; normalimage=&quot;file='checkbox_uncheck.png' dest='0,10,10,20'&quot;"/>
   <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
   <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
-  <VerticalLayout bkcolor="#FF6B93B2" bordersize="2" bordercolor="#FF0934DA">
+  <VerticalLayout bordersize="1" bordercolor="#FF333333" bkcolor="#FFF5F6FD">
     <!--header-->
-    <HorizontalLayout name="header" height="36" bkcolor="#FF4775CC">
-      <Button width="16" height="16" float="true" pos="4,8,20,24" normalimage="file='logo.png' dest='2,2,18,18'" />
+    <HorizontalLayout name="header" height="30">
       <HorizontalLayout>
-        <Control width="26"/>
-        <Label name="apptitle" text="端口设置" font="0" textcolor="#FF0AF0FF" />
+        <Control width="10"/>
+        <Label name="apptitle" text="端口设置" font="14" textcolor="#FF333333" />
       </HorizontalLayout>
-      <HorizontalLayout height="25" width="43">
-        <Button name="closebtn" tooltip="关闭" height="18" width="43" normalimage="close.png" hotimage="close_h.png" pushedimage="close_p.png"/>
+      <HorizontalLayout height="20" width="20" padding="0,5,10,5">
+        <Button name="closebtn" tooltip="关闭" height="20" width="20" normalimage="btn_close_normal.png" hotimage="btn_close_over.png" pushedimage="btn_close_over.png"/>
       </HorizontalLayout>
     </HorizontalLayout>
     <!--body-->
-    <HorizontalLayout name="body">
+    <HorizontalLayout name="body" bkcolor="#FFFFFFFF" padding="1,0,1,1">
       <!--body.com_port_settings-->
-      <HorizontalLayout name="body.com_port_settings" height="210">
+      <HorizontalLayout name="body.com_port_settings" height="210" padding="10,10,10,0">
         <!--body.com_port_setting_a-->
-        <VerticalLayout name="body.com_port_setting_a" width="240" bkcolor="#FF6B93B2" bordersize="1" bordercolor="#FF323232">
-          <HorizontalLayout bordersize="1" bkcolor="#FF323232">
-            <Label text="超声电源发生器" font="3" textcolor="#FFFFFFFFFF" align="left" padding="2,0,0,0"/>
+        <VerticalLayout name="body.com_port_setting_a" width="240" bordersize="1" bordercolor="#FFF0F0F0">
+          <HorizontalLayout bordersize="1">
+            <Label text="超声电源发生器" font="13" textcolor="#FF333333" align="left" padding="2,0,0,0"/>
           </HorizontalLayout>
           <VerticalLayout height="2" />
           <HorizontalLayout >
-            <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="端口号:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="com_port_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
               <ListLabelElement text="COM3" selected="true" textpadding="4,1,1,1"/>
@@ -55,13 +70,13 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_ua" text="2" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
+            <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Edit name="com_adr_ua" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="2" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="baud_rate_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="baud_rate_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1200" textpadding="4,1,1,1" />
               <ListLabelElement text="2400" textpadding="4,1,1,1"/>
               <ListLabelElement text="4800" textpadding="4,1,1,1"/>
@@ -74,8 +89,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="data_bits_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="数据位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="data_bits_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="5" textpadding="4,1,1,1" />
               <ListLabelElement text="6" textpadding="4,1,1,1"/>
               <ListLabelElement text="7" textpadding="4,1,1,1"/>
@@ -84,8 +99,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="stop_bits_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="停止位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="stop_bits_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
@@ -93,8 +108,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="parity_ua" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="校验位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="parity_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
               <ListLabelElement text="odd" textpadding="4,1,1,1"/>
               <ListLabelElement text="even" textpadding="4,1,1,1"/>
@@ -105,14 +120,14 @@
           <VerticalLayout height="16"/>
         </VerticalLayout>
         <!--body.com_port_setting_b-->
-        <VerticalLayout name="body.com_port_setting_b" width="240" bkcolor="#FF6B93B2" bordersize="1" bordercolor="#FF323232">
-          <HorizontalLayout bordersize="1" bkcolor="#FF323232">
-            <Label text="静载机" font="3" textcolor="#FFFFFFFFFF" align="left" padding="2,0,0,0"/>
+        <VerticalLayout name="body.com_port_setting_b" width="240" bordersize="1" bordercolor="#FFF0F0F0">
+          <HorizontalLayout bordersize="1">
+            <Label text="静载机" font="13" textcolor="#FF333333" align="left" padding="2,0,0,0"/>
           </HorizontalLayout>
           <VerticalLayout height="2" />
           <HorizontalLayout >
-            <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="端口号:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="com_port_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
               <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
@@ -127,13 +142,13 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_sl" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
+            <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Edit name="com_adr_sl" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="1" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="baud_rate_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="baud_rate_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1200" textpadding="4,1,1,1" />
               <ListLabelElement text="2400" textpadding="4,1,1,1"/>
               <ListLabelElement text="4800" textpadding="4,1,1,1"/>
@@ -146,8 +161,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="data_bits_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="数据位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="data_bits_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="5" textpadding="4,1,1,1" />
               <ListLabelElement text="6" textpadding="4,1,1,1"/>
               <ListLabelElement text="7" textpadding="4,1,1,1"/>
@@ -156,8 +171,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="stop_bits_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="停止位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="stop_bits_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
@@ -165,8 +180,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="parity_sl" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="校验位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="parity_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
               <ListLabelElement text="odd" textpadding="4,1,1,1"/>
               <ListLabelElement text="even" textpadding="4,1,1,1"/>
@@ -177,14 +192,14 @@
           <VerticalLayout height="16"/>
         </VerticalLayout>
         <!--body.com_port_setting_c-->
-        <VerticalLayout name="body.com_port_setting_c" width="240" bkcolor="#FF6B93B2" bordersize="1" bordercolor="#FF323232">
-          <HorizontalLayout bordersize="1" bkcolor="#FF323232">
-            <Label text="空压机" font="3" textcolor="#FFFFFFFFFF" align="left" padding="2,0,0,0"/>
+        <VerticalLayout name="body.com_port_setting_c" width="240" bordersize="1" bordercolor="#FFF0F0F0">
+          <HorizontalLayout bordersize="1">
+            <Label text="空压机" font="13" textcolor="#FF333333" align="left" padding="2,0,0,0"/>
           </HorizontalLayout>
           <VerticalLayout height="2" />
           <HorizontalLayout >
-            <Label text="端口号:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="端口号:" font="13" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="com_port_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="COM1" textpadding="4,1,1,1" />
               <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
               <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
@@ -199,13 +214,13 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="地址:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_ac" text="1" font="3" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF000000" maxchar="8" numberonly="true"/>
+            <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Edit name="com_adr_ac" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="1" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="波特率:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="baud_rate_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="baud_rate_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1200" textpadding="4,1,1,1" />
               <ListLabelElement text="2400" textpadding="4,1,1,1"/>
               <ListLabelElement text="4800" textpadding="4,1,1,1"/>
@@ -218,8 +233,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="数据位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="data_bits_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="数据位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="data_bits_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="5" textpadding="4,1,1,1" />
               <ListLabelElement text="6" textpadding="4,1,1,1"/>
               <ListLabelElement text="7" textpadding="4,1,1,1"/>
@@ -228,8 +243,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="停止位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="stop_bits_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="停止位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="stop_bits_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
               <ListLabelElement text="2" textpadding="4,1,1,1"/>
               <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
@@ -237,8 +252,8 @@
           </HorizontalLayout>
           <VerticalLayout height="2"/>
           <HorizontalLayout>
-            <Label text="校验位:" font="3" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="parity_ac" droptype="droplist" bkcolor="#FFFFFFFF" itemfont="5" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+            <Label text="校验位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="parity_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
               <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
               <ListLabelElement text="odd" textpadding="4,1,1,1"/>
               <ListLabelElement text="even" textpadding="4,1,1,1"/>
@@ -252,14 +267,14 @@
       <!--body.com_port_settings-->
     </HorizontalLayout>
     <!--footer-->
-    <HorizontalLayout height="36" bkcolor="#FF6B93B2">
-      <Container width="240"/>
-      <VerticalLayout>
-        <Container height="3"/>
-        <Button name="btn_ok" text="确认" font="2" textcolor="#FF386382" align="center" normalimage="file='TabButton.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='TabButton.png' source='0,120,120,150' corner='2,2,2,2'" selectedimage="file='TabButton.png' source='0,60,120,90' corner='2,2,2,2'"/>
-        <Container height="3"/>
-      </VerticalLayout>
-      <Container width="240"/>
+    <HorizontalLayout name="footer" height="30">
+      <HorizontalLayout height="30" padding="1,0,1,1" bkcolor="#FFFFFFFF">
+        <Container width="280"/>
+        <Button name="okbtn" text="确定" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
+        <Control width="40"/>
+        <Button name="cancelbtn" text="取消" font="13" textcolor="#FFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
+        <Control width="280"/>
+      </HorizontalLayout>
     </HorizontalLayout>
   </VerticalLayout>
 </Window>

@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window bktrans="true" size="160,172">
-	<Font id="0" name="微软雅黑" size="15" bold="true" default="false" />
-	<Font id="1" name="微软雅黑" size="15" bold="false" default="false" />
-	<Font id="2" name="微软雅黑" size="14" bold="true" default="false" />
-	<Font id="3" name="微软雅黑" size="14" bold="false" default="false" />
-	<Font id="4" name="微软雅黑" size="13" bold="true" default="false" />
-	<Font id="5" name="微软雅黑" size="13" bold="false" default="false" />
-	<Font id="6" name="微软雅黑" size="12" bold="true" default="true" />
-	<Font id="7" name="微软雅黑" size="12" bold="false" default="false" />
-	<Font id="8" name="微软雅黑" size="11" bold="true" default="false" />
-	<Font id="9" name="微软雅黑" size="11" bold="false" default="false" />
+<Window bktrans="true" size="100,250">
+	<Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
+	<Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
+	<Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
+	<Font id="3" name="微软雅黑" size="6" bold="false" default="false" />
+	<Font id="4" name="微软雅黑" size="7" bold="true" default="false" />
+	<Font id="5" name="微软雅黑" size="7" bold="false" default="false" />
+	<Font id="6" name="微软雅黑" size="8" bold="true" default="false" />
+	<Font id="7" name="微软雅黑" size="8" bold="false" default="false" />
+	<Font id="8" name="微软雅黑" size="9" bold="true" default="false" />
+	<Font id="9" name="微软雅黑" size="9" bold="false" default="false" />
 	<Font id="10" name="微软雅黑" size="10" bold="true" default="false" />
 	<Font id="11" name="微软雅黑" size="10" bold="false" default="false" />
-	<Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
-	<Default name="CheckBox" value="textcolor=&quot;#FFFFFFFF&quot; hottextcolor=&quot;#FFFFFFFF&quot; selectedtextcolor=&quot;#FFFFFFFF&quot; disabledtextcolor=&quot;#FFFFFFFF&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checked.png' dest='0,2,16,18'&quot; normalimage=&quot;file='unchecked.png' dest='0,2,16,18'&quot;" />
+	<Font id="12" name="微软雅黑" size="11" bold="true" default="false" />
+	<Font id="13" name="微软雅黑" size="11" bold="false" default="false" />
+	<Font id="14" name="微软雅黑" size="12" bold="true" default="false" />
+	<Font id="15" name="微软雅黑" size="12" bold="false" default="false" />
+	<Font id="16" name="微软雅黑" size="13" bold="true" default="true" />
+	<Font id="17" name="微软雅黑" size="13" bold="false" default="false" />
+	<Font id="18" name="微软雅黑" size="14" bold="true" default="false" />
+	<Font id="19" name="微软雅黑" size="14" bold="false" default="false" />
+	<Font id="20" name="微软雅黑" size="15" bold="true" default="false" />
+	<Font id="21" name="微软雅黑" size="15" bold="false" default="false" />
+	<Font id="22" name="微软雅黑" size="16" bold="true" default="false" />
+	<Font id="23" name="微软雅黑" size="16" bold="false" default="false" />
+	<Font id="24" name="微软雅黑" size="17" bold="true" default="false" />
+	<Font id="25" name="微软雅黑" size="17" bold="false" default="false" />
+	<Font id="26" name="微软雅黑" size="18" bold="true" default="false" />
+	<Font id="27" name="微软雅黑" size="18" bold="false" default="false" />
+	<Default name="Option" value="textcolor=&quot;#FF666666&quot; hottextcolor=&quot;#FF333333&quot; selectedtextcolor=&quot;#FF666666&quot; disabledtextcolor=&quot;#FF999999&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='option_check.png' source='0,0,10,10' dest='0,5,10,15'&quot; normalimage=&quot;file='option_uncheck.png' source='0,0,10,10' dest='0,5,10,15'&quot; disabledimage=&quot;file='option_disable.png' source='0,0,10,10' dest='0,5,10,15'&quot;" />
+	<Default name="CheckBox" value="textcolor=&quot;#FF666666&quot; hottextcolor=&quot;#FF333333&quot; selectedtextcolor=&quot;#FF666666&quot; disabledtextcolor=&quot;#FF999999&quot; textpadding=&quot;20,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='checkbox_check.png' dest='0,10,10,20'&quot; normalimage=&quot;file='checkbox_uncheck.png' dest='0,10,10,20'&quot;"/>
 	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
 	<Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
-	<VerticalLayout bkimage="file='menu_bk.png' corner='40,8,8,8'" hole="false">
-		<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#FF223323">
-			<ListContainerElement name="menu_design_item_connect" height="22" inset="40,0,0,0">
-				<Label text="连接" mouse="false"/>
+	<VerticalLayout bkcolor="#FFFFFFFF" hole="false">
+		<List header="hidden" inset="8,8,8,8" itemdisabledbkcolor="#FFDDDDDD" itemselectedbkcolor="#FFE0EAFF">
+			<ListContainerElement name="menu_design_item_connect" height="40" inset="10,0,0,0">
+				<Label name="label_design_item_connect" text="设备连接" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_disconnect" height="22" inset="40,0,0,0">
-				<Label text="断开" mouse="false"/>
+			<ListContainerElement name="menu_design_item_disconnect" height="40" inset="10,0,0,0" enabled="false">
+				<Label name="label_design_item_disconnect" text="设备断开" font="13" textcolor="#FF666666" mouse="false" enabled="false"/>
 			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_device_settings" height="22" inset="40,0,0,0">
-				<Label text="设备配置" mouse="false"/>
+			<ListContainerElement name="menu_design_item_device_settings" height="40" inset="10,0,0,0">
+				<Label name="label_design_item_device_settings" text="设备配置" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_modify_address" height="22" inset="40,0,0,0">
-				<Label text="修改地址" mouse="false"/>
+			<ListContainerElement name="menu_design_item_modify_address" height="40" inset="10,0,0,0">
+				<Label name="label_design_item_modify_address" text="修改地址" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_read_solution" height="22" inset="40,0,0,0">
-				<Label text="读取方案" mouse="false"/>
+			<ListContainerElement height="2" inset="10,0,0,0" bkcolor="#FF999999"/>
+			<ListContainerElement name="menu_design_item_read_solution" height="40" inset="10,0,0,0">
+				<Label name="label_design_item_read_solution" text="读取方案" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_save_solution" height="22" inset="40,0,0,0">
-				<Label text="保存方案" mouse="false"/>
-			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_exit" height="22" inset="40,0,0,0">
-				<Label text="退出" mouse="false"/>
+			<ListContainerElement name="menu_design_item_save_solution" height="40" inset="10,0,0,0">
+				<Label name="label_design_item_save_solution" text="保存方案" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
 		</List>
 	</VerticalLayout>
