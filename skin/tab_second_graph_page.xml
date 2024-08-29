@@ -65,15 +65,16 @@
             </HorizontalLayout>
             <HorizontalLayout name="graph_settings_tail" height="18">
                 <HorizontalLayout name="graph_settings_tail_range_minitues" align="left" width="270">
-                    <Option name="graph_settings_5_minite" text="5分钟" font="13" selected="true" group="time_range_mode" />
-                    <Option name="graph_settings_10_minite" text="10分钟" font="13" group="time_range_mode"/>
-                    <Option name="graph_settings_30_minite" text="30分钟" font="13" group="time_range_mode"/>
-                    <Option name="graph_settings_60_minite" text="60分钟" font="13" group="time_range_mode"/>
+                    <Option name="graph_settings_1_minite" text="1分" font="13" selected="true" group="time_range_mode" />
+                    <Option name="graph_settings_5_minite" text="5分" font="13" group="time_range_mode" />
+                    <Option name="graph_settings_10_minite" text="10分" font="13" group="time_range_mode"/>
+                    <Option name="graph_settings_30_minite" text="30分" font="13" group="time_range_mode"/>
+                    <Option name="graph_settings_60_minite" text="60分" font="13" group="time_range_mode"/>
                 </HorizontalLayout>
                 <Control align="center"/>
                 <HorizontalLayout name="graph_settings_tail_pages" align="right" width="160">
-                    <Button name="graph_settings_pre_page" text="上一页" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" focusedtextcolor="#FFFFFFFF" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
-                    <Button name="graph_settings_next_page" text="下一页" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" focusedtextcolor="#FFFFFFFF" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                    <Button name="graph_settings_pre_page" text="上一页" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                    <Button name="graph_settings_next_page" text="下一页" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
                 </HorizontalLayout>
             </HorizontalLayout>
         </VerticalLayout>

@@ -37,7 +37,7 @@
     <HorizontalLayout name="header" height="30">
       <HorizontalLayout>
         <Control width="10"/>
-        <Label name="apptitle" text="振幅校准" font="14" textcolor="#FF333333" />
+        <Button name="apptitle" text="振幅校准" font="14" textcolor="#FF333333" />
       </HorizontalLayout>
       <HorizontalLayout height="20" width="20" padding="0,5,10,5">
         <Button name="closebtn" tooltip="关闭" height="20" width="20" normalimage="btn_close_normal.png" hotimage="btn_close_over.png" pushedimage="btn_close_over.png"/>
@@ -51,32 +51,32 @@
         <VerticalLayout name="body.static_load_settings">
           <Container height="16"/>
           <HorizontalLayout bordersize="1" bordercolor="#FF999999" height="24">
-            <Label text="功率设定" font="13" textcolor="#FF333333" align="center"/>
-            <Label text="运行" font="13" textcolor="#FF333333" align="center"/>
-            <Label text="振幅" font="13" textcolor="#FF333333" align="center" padding="0,0,12,0"/>
+            <Button text="功率设定" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
+            <Button text="运行" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
+            <Button text="振幅" font="13" textcolor="#FF333333" align="center" padding="0,0,12,0"enabled="false" disabledtextcolor="#FF333333"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
-            <Label text="20%" font="13" textcolor="#FF666666" align="center"/>
-            <Label text="-->" font="13" textcolor="#FF666666" align="center"/>
+            <Button text="20%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
+            <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Edit name="tab_page_three_left_amp_level_one" text="30" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
-            <Label text="40%" font="13" textcolor="#FF666666" align="center"/>
-            <Label text="-->" font="13" textcolor="#FF666666" align="center"/>
+            <Button text="40%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
+            <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Edit name="tab_page_three_left_amp_level_two" text="38" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
-            <Label text="60%" font="13" textcolor="#FF666666" align="center"/>
-            <Label text="-->" font="13" textcolor="#FF666666" align="center"/>
+            <Button text="60%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
+            <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Edit name="tab_page_three_left_amp_level_third" text="47" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
-            <Label text="80%" font="13" textcolor="#FF666666" align="center"/>
-            <Label text="-->" font="13" textcolor="#FF666666" align="center"/>
+            <Button text="80%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
+            <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Edit name="tab_page_three_left_amp_level_fourth" text="54" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8"/>

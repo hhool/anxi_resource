@@ -49,14 +49,14 @@
             <VerticalLayout name="body.background" padding="10,10,10,0">
                 <VerticalLayout height="16" />
                 <HorizontalLayout>
-                    <Label name="content" text="多功能超声波疲劳试验系统" font="13" textcolor="#FF333333" align="center"/>
+                    <Button name="content" text="多功能超声波疲劳试验系统" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
                 </HorizontalLayout>
                 <VerticalLayout height="16" />
             </VerticalLayout>
         </HorizontalLayout>
         <!--footer-->
         <HorizontalLayout name="footer" height="40" padding="1,0,1,1" bkcolor="#FFFFFFFF">
-            <HorizontalLayout height="30" padding="1,0,1,1" bkcolor="#FFFFFFFF">
+            <HorizontalLayout height="30" padding="1,10,1,1">
                 <Control width="100"/>
                 <Button name="okbtn" text="确定" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
                 <Control width="40"/>
