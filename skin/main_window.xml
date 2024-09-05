@@ -49,8 +49,11 @@
         </VerticalLayout>
       </VerticalLayout>
       <VerticalLayout name="body_right" text="body_right" bordersize="1">
+        <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" height="30" padding="30,17,1,0">
+          <Button name="btn_pilot_e10c" text="万测试验TESTPILOT_E10C" font="13" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+        </HorizontalLayout>
         <HorizontalLayout>
-          <Button name="closebtn" text="退出" tooltip="退出" font="15" float="true" pos="176,419,80,30" height="30" width="80" bkcolor="#FF0F0F0" hottextcolor="#FF999999" textcolor="#FF666666" focusedtextcolor="#FF333333"/>
+          <Button name="closebtn" text="退出" tooltip="退出" font="15" float="true" pos="176,379,0,0" height="36" width="90" bkcolor="#FF0F0F0" hottextcolor="#FF999999" textcolor="#FF666666" focusedtextcolor="#FF333333"/>
         </HorizontalLayout>
       </VerticalLayout>
     </HorizontalLayout>
