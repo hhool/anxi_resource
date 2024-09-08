@@ -87,7 +87,7 @@
                 <Label bkimage="icon_tb_design_args.png" padding="0,0,4,0" width="20" height="20" align="left"/>
                 <Label text="设计参数" font="14" textcolor="#FF666666" width="104" height="20" align="left"/>
                 <Container width="88"/>
-                <Button name="solution_design_refresh" align="right" float="false" normalimage="file='icon_tb_design_refresh.png' dest='5,3,20,20'"/>
+                <Button name="solution_design_refresh" align="right" float="false" normalimage="file='icon_tb_design_refresh.png' dest='5,3,21,19'"/>
             </HorizontalLayout>
             <HorizontalLayout float="true" pos="0,380,256,412">
                 <Label padding="1,1,6,1" width="3"/>
