@@ -35,7 +35,7 @@
   <VerticalLayout bkcolor="#FFF5F6FD">
     <!--header.menu.button-->
     <HorizontalLayout name="header" height="40" bkcolor="#FFFFFFFF">
-      <HorizontalLayout>
+      <HorizontalLayout width="300">
         <HorizontalLayout width="100" height="30" bkcolor="#FFF0F0F0" padding="10,5,10,0">
           <Label name="menu_icon_design_manager" bkimage="icon_design_manager.png" padding="0,5,5,0" width="20" height="20"/>
           <Button name="menu_btn_design_manager" text="设计管理" align="left" font="14" textcolor="#FF386382"/>
@@ -50,10 +50,11 @@
         </HorizontalLayout>
       </HorizontalLayout>
       <HorizontalLayout>
-        <Label name="exp_title" text="轴向对称拉压疲劳试验" font="24" align="center" textcolor="#FF333333" />
+        <Container algin="right"/>
+        <Button name="exp_title" text="可调应力比轴向拉压疲劳试验" width="220" font="24" align="center" textcolor="#FF333333" enabled="false" disabledtextcolor="#FF333333"/>
       </HorizontalLayout>
       <HorizontalLayout>
-        <Container algin="rignt"/>
+        <Container algin="right"/>
         <Button name="minbtn" tooltip="最小化" height="18" width="26" normalimage="minimize.png" hotimage="minimize_h.png" pushedimage="minimize_p.png"/>
         <Button name="maxbtn" tooltip="最大化" height="18" width="25" normalimage="maximize.png" hotimage="maximize_h.png" pushedimage="maximize_p.png"/>
         <Button name="restorebtn" visible="false" tooltip="恢复" height="18" width="25" normalimage="restore.png" hotimage="restore_h.png" pushedimage="restore_p.png"/>
