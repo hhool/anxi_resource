@@ -100,7 +100,7 @@
             <HorizontalLayout float="false" pos="0,406,256,438">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="试验段半径(R2):" font="13" textcolor="#FF333333" align="left" width="128" height="22"/>
+                    <Label text="试验段半径(R2)" font="13" textcolor="#FF333333" align="left" width="128" height="22"/>
                     <Label text="(4.5⩽R2⩽5.5mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
                 <Edit name="tm_page_first_left_radius_exp_axially" text="5.0" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
@@ -108,32 +108,32 @@
             <HorizontalLayout float="false" pos="0,438,256,470">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="平行段半径(R1):" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonly="true"/>
+                    <Label text="平行段半径(R1)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonly="true"/>
                     <Label text="(1.4⩽R1⩽1.6mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
                 <Edit name="tm_page_first_left_radus_parallel_axially" text="1.5" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,470,256,502">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="过渡段半径(R0):" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="过渡段半径(R0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_radus_trans_axially" text="22.3" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="过渡段长度(L1):" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonly="true"/>
+                    <Label text="过渡段长度(L1)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonly="true"/>
                     <Label text="(11⩽L1⩽12mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
                 <Edit name="tm_page_first_left_length_trans_axially" text="12" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,534,256,566">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="平行段长度(L0):" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="平行段长度(L0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_length_parallel_axially" text="2" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,566,256,598">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="试验段长度(L2):" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="试验段长度(L2)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_exp_section_trans_axially" text="15.0" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
         </VerticalLayout>

@@ -83,7 +83,7 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,342,256,374">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="应力位移系数Cs:" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="应力位移系数Cs" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_dc_stress_vibration" text="24.5" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,374,256,406">
@@ -93,7 +93,7 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,406,256,438">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="试验圆弧段半径(R1):" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="试验圆弧段半径(R1)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_specimen_radius_arc_vibration" text="3.0" font="13" textcolor="#FF333333" bkcolor="#FFADFF2F" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" readonly="true" mouse="false" />
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,438,256,470">
@@ -108,7 +108,7 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="试验段厚度(L0):" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Label text="试验段厚度(L0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_thickness_exp_section_vibration" text="3.2" font="13" textcolor="#FF333333" bkcolor="#FFADFF2F" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" readonly="true" mouse="false" />
             </HorizontalLayout>
         </VerticalLayout>
