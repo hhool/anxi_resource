@@ -36,7 +36,7 @@
     <HorizontalLayout virtualwnd="WorkWindowSecondPageGraph" name="tab_graph_data_first_graph" bkcolor="#FFF5F6FD">
         <VerticalLayout>
             <HorizontalLayout name="graph_settings_first" height="18">
-                <HorizontalLayout name="graph_settings_first_pages" align="left" width="160">
+                <HorizontalLayout name="graph_settings_first_pages" align="left" width="160" visible="false">
                     <Option name="graph_settings_pre_hour" text="上一小时" font="13" group="time_mode"/>
                     <Option name="graph_settings_current_hour" text="当前小时" font="13" selected="true" group="time_mode"/>
                 </HorizontalLayout>
