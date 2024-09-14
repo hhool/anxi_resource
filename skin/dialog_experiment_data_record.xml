@@ -45,11 +45,11 @@
         </HorizontalLayout>
         <!--body-->
         <HorizontalLayout height="44">
-            <VerticalLayout width="320" padding="10,10,0,0" bkcolor="#FFF0F0F0">
+            <VerticalLayout width="320" padding="1,10,0,0" bkcolor="#FFF0F0F0">
                 <HorizontalLayout>
-                    <DateTime name="edit_start_time" text="2024-08-12" font="9" align="center" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="0,0,10,0"/>
+                    <DateTime name="date_time_start" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="0,0,10,0"/>
                     <Label bkimage="icon_to.png" padding="0,8,4,0" width="20" height="20"/>
-                    <DateTime name="edit_end_time" text="2024-08-12" font="9" align="center" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="10,0,0,0"/>
+                    <DateTime name="date_time_end" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="10,0,0,0"/>
                 </HorizontalLayout>
             </VerticalLayout>
             <VerticalLayout padding="15,15,0,0">
@@ -63,13 +63,13 @@
                 </HorizontalLayout>
                 <HorizontalLayout height="1" />
                 <list name="exp_data_record_list" bordersize="1" itemaltbk="true" menu="true" header="hidden" vscrollbar="true" hscrollbar="false" bkcolor="#FFFFFFFF">
-                    <ListContainerElement height="22" width="360" align="left" visible="true">
+                    <!--<ListContainerElement height="22" width="360" align="left" visible="false">
                         <HorizontalLayout>
                             <Control bkimage="icon_csv.png" width="20" height="20" padding="24,0,0,0"/>
                             <Container width="1" padding="2,0,2,0"/>
                             <Text text="2024-08-12_13-32-32_2024-08-12_13-34-01.csv" font="11" algin="right"/>
                         </HorizontalLayout>
-                    </ListContainerElement>
+                    </ListContainerElement>-->
                 </list>
             </VerticalLayout>
             <VerticalLayout width="1" bkcolor="#FFFFFFFF"/>
@@ -81,23 +81,23 @@
                 <VerticalLayout inset="8,0,2,0">
                     <VerticalLayout height="48">
                         <Label text="文件名称：" font="10" textcolor="#FF666666" align="left"/>
-                        <Label text="2024-08-12_13-32-32_2024-08-12_13-34-01.csv" font="10" textcolor="#FF999999" align="left"/>
+                        <Label name="file_name" text="2024-08-12_13-32-32_2024-08-12_13-34-01.csv" font="10" textcolor="#FF999999" align="left"/>
                     </VerticalLayout>
-                    <VerticalLayout height="48">
+                    <VerticalLayout height="48" visible="false">
                         <Label text="条目数量：" font="10" textcolor="#FF666666" align="left"/>
                         <Label text="2024-08-12 13:32:32" font="10" textcolor="#FF999999" align="left"/>
                     </VerticalLayout>
                     <VerticalLayout height="48">
                         <Label text="开始时间：" font="10" textcolor="#FF666666" align="left"/>
-                        <Label text="2024-08-12 13:32:32" font="10" textcolor="#FF999999" align="left"/>
+                        <Label name="start_time" text="2024-08-12 13:32:32" font="10" textcolor="#FF999999" align="left"/>
                     </VerticalLayout>
                     <VerticalLayout height="48">
                         <Label text="结束时间：" font="10" textcolor="#FF666666" align="left"/>
-                        <Label text="2024-08-12 13:34:01" font="10" textcolor="#FF999999" align="left"/>
+                        <Label name="end_time" text="2024-08-12 13:34:01" font="10" textcolor="#FF999999" align="left"/>
                     </VerticalLayout>
                     <VerticalLayout height="48">
                         <Label text="试验时长：" font="10" textcolor="#FF666666" align="left"/>
-                        <Label text="1分29秒" font="10" textcolor="#FF999999" align="left"/>
+                        <Label name="duration_time" text="1分29秒" font="10" textcolor="#FF999999" align="left"/>
                     </VerticalLayout>
                 </VerticalLayout>
             </VerticalLayout>
