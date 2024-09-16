@@ -49,23 +49,23 @@
       <VerticalLayout name="body.background" padding="40,0,40,0">
         <VerticalLayout height="16" />
         <HorizontalLayout>
-          <Label text="多功能超声波疲劳试验系统" font="14" textcolor="#FF666666" align="left"/>
+          <Label name="soft_name" text="多功能超声波疲劳试验系统" font="14" textcolor="#FF666666" align="left"/>
         </HorizontalLayout>
         <VerticalLayout height="2"/>
         <HorizontalLayout>
-          <Label text="版本：v1.0" font="10" textcolor="#FF999999" align="left"/>
+          <Label name="ver" text="版本：v1.0" font="10" textcolor="#FF999999" align="left"/>
         </HorizontalLayout>
         <VerticalLayout height="2"/>
         <HorizontalLayout>
-          <Label text="内部版本号：3234fadfefd" font="10" textcolor="#FF999999" align="left"/>
+          <Label name="in_ver" text="内部版本号：3234fadfefd" font="10" textcolor="#FF999999" align="left"/>
         </HorizontalLayout>
         <VerticalLayout height="2"/>
         <HorizontalLayout>
-          <Label text="版权所有：xxxxxxxx科技有限公司" font="10" textcolor="#FF999999" align="left"/>
+          <Label name="copyright" text="版权所有：xxxxxxxx科技有限公司" font="10" textcolor="#FF999999" align="left"/>
         </HorizontalLayout>
         <VerticalLayout height="2"/>
         <HorizontalLayout>
-          <Label text="联系方式：xxxxxxxxx" font="10" textcolor="#FF999999" align="left"/>
+          <Label name="phone" text="联系方式：xxxxxxxxx" font="10" textcolor="#FF999999" align="left"/>
         </HorizontalLayout>
         <VerticalLayout height="16"/>
       </VerticalLayout>

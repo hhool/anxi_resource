@@ -58,8 +58,8 @@
       </VerticalLayout>
     </HorizontalLayout>
     <HorizontalLayout name="status_bar" text="bottom" padding="30,0,0,10" height="11">
-      <Label name="Lab" text="软件注册号:202425647895598" textcolor="#FF666666" align="left" font="11"/>
-      <Label name="Lab" text="版权所有:************有限公司" textcolor="#FF666666" font="11" padding="16,0,277,0"/>
+      <Label name="lb_code" text="软件注册号:202425647895598" textcolor="#FF666666" align="left" font="11"/>
+      <Label name="lb_copyright" text="版权所有:************有限公司" textcolor="#FF666666" font="11" padding="16,0,277,0"/>
     </HorizontalLayout>
   </VerticalLayout>
 </Window>
