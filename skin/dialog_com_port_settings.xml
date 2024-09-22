@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="720,270" mininfo="720,270" caption="0,0,0,36" roundcorner="4,4,4,4">
+<Window size="502,270" mininfo="502,270" caption="0,0,0,36" roundcorner="4,4,4,4">
   <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
   <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
   <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -191,89 +191,17 @@
           </HorizontalLayout>
           <VerticalLayout height="16"/>
         </VerticalLayout>
-        <!--body.com_port_setting_c-->
-        <VerticalLayout name="body.com_port_setting_c" width="240" bordersize="1" bordercolor="#FFF0F0F0">
-          <HorizontalLayout bordersize="1">
-            <Label text="空压机" font="13" textcolor="#FF333333" align="left" padding="2,0,0,0"/>
-          </HorizontalLayout>
-          <VerticalLayout height="2" />
-          <HorizontalLayout >
-            <Label text="端口号:" font="13" textcolor="#FF000000" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="com_port_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="COM1" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM2" textpadding="4,1,1,1"/>
-              <ListLabelElement text="COM3" textpadding="4,1,1,1"/>
-              <ListLabelElement text="COM4" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM5" textpadding="4,1,1,1"/>
-              <ListLabelElement text="COM6" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM7" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM8" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM9" textpadding="4,1,1,1" />
-              <ListLabelElement text="COM10" selected="true" textpadding="4,1,1,1" />
-            </Combo>
-          </HorizontalLayout>
-          <VerticalLayout height="2"/>
-          <HorizontalLayout>
-            <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
-            <Edit name="com_adr_ac" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="1" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonly="true"/>
-          </HorizontalLayout>
-          <VerticalLayout height="2"/>
-          <HorizontalLayout>
-            <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="baud_rate_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="1200" textpadding="4,1,1,1" />
-              <ListLabelElement text="2400" textpadding="4,1,1,1"/>
-              <ListLabelElement text="4800" textpadding="4,1,1,1"/>
-              <ListLabelElement text="9600" selected="true" textpadding="4,1,1,1"/>
-              <ListLabelElement text="19200" textpadding="4,1,1,1"/>
-              <ListLabelElement text="38400" textpadding="4,1,1,1"/>
-              <ListLabelElement text="57600" textpadding="4,1,1,1"/>
-              <ListLabelElement text="115200" textpadding="4,1,1,1"/>
-            </Combo>
-          </HorizontalLayout>
-          <VerticalLayout height="2"/>
-          <HorizontalLayout>
-            <Label text="数据位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="data_bits_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="5" textpadding="4,1,1,1" />
-              <ListLabelElement text="6" textpadding="4,1,1,1"/>
-              <ListLabelElement text="7" textpadding="4,1,1,1"/>
-              <ListLabelElement text="8" selected="true" textpadding="4,1,1,1"/>
-            </Combo>
-          </HorizontalLayout>
-          <VerticalLayout height="2"/>
-          <HorizontalLayout>
-            <Label text="停止位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="stop_bits_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="1" selected="true" textpadding="4,1,1,1"/>
-              <ListLabelElement text="2" textpadding="4,1,1,1"/>
-              <ListLabelElement text="1.5" textpadding="4,1,1,1"/>
-            </Combo>
-          </HorizontalLayout>
-          <VerticalLayout height="2"/>
-          <HorizontalLayout>
-            <Label text="校验位:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
-            <Combo name="parity_ac" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
-              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1" />
-              <ListLabelElement text="odd" textpadding="4,1,1,1"/>
-              <ListLabelElement text="even" textpadding="4,1,1,1"/>
-              <ListLabelElement text="mark" textpadding="4,1,1,1"/>
-              <ListLabelElement text="space" textpadding="4,1,1,1"/>
-            </Combo>
-          </HorizontalLayout>
-          <VerticalLayout height="16"/>
-        </VerticalLayout>
       </HorizontalLayout>
       <!--body.com_port_settings-->
     </HorizontalLayout>
     <!--footer-->
     <HorizontalLayout name="footer" height="40" padding="1,0,1,1" bkcolor="#FFFFFFFF">
       <HorizontalLayout height="30" padding="1,10,1,1">
-        <Container width="280"/>
+        <Container width="170"/>
         <Button name="okbtn" text="确定" font="13" textcolor="#FFFFFFFF" bordersize="2" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
         <Control width="40"/>
         <Button name="cancelbtn" text="取消" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
-        <Control width="280"/>
+        <Control width="170"/>
       </HorizontalLayout>
     </HorizontalLayout>
   </VerticalLayout>
