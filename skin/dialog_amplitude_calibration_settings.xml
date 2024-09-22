@@ -37,7 +37,7 @@
     <HorizontalLayout name="header" height="30">
       <HorizontalLayout>
         <Control width="10"/>
-        <Button name="apptitle" text="振幅校准" font="14" textcolor="#FF333333" />
+        <Label name="apptitle" text="振幅校准" font="14" textcolor="#FF333333" />
       </HorizontalLayout>
       <HorizontalLayout height="20" width="20" padding="0,5,10,5">
         <Button name="closebtn" tooltip="关闭" height="20" width="20" normalimage="btn_close_normal.png" hotimage="btn_close_over.png" pushedimage="btn_close_over.png"/>
@@ -49,11 +49,11 @@
       <HorizontalLayout name="body.settings" padding="10,10,10,0">
         <!--body.static_load_settings-->
         <VerticalLayout name="body.static_load_settings">
-          <Container height="16"/>
+          <VerticalLayout height="10"/>
           <HorizontalLayout bordersize="1" bordercolor="#FF999999" height="24">
             <Button text="功率设定" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
             <Button text="运行" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
-            <Button text="振幅" font="13" textcolor="#FF333333" align="center" padding="0,0,12,0"enabled="false" disabledtextcolor="#FF333333"/>
+            <Button text="振幅" font="13" textcolor="#FF333333" align="center" padding="0,0,12,0" enabled="false" disabledtextcolor="#FF333333"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
