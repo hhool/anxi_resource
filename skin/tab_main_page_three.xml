@@ -58,14 +58,14 @@
                 <HorizontalLayout bordersize="1" float="false" pos="0,116,384,148">
                     <Label padding="1,1,6,1" width="3"/>
                     <Label text="保力(速度):" font="13" textcolor="#FF333333" float="false" width="104" height="32"/>
-                    <Edit name="tab_page_three_left_speed" enabled="false" text="50" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Edit name="tab_page_three_left_speed" enabled="false" text="50" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
                     <Container width="2"/>
                     <Label text="mm/min" font="9" textcolor="#FF999999"/>
                 </HorizontalLayout>
                 <HorizontalLayout bordersize="1" float="false" pos="0,148,384,180">
                     <Label padding="1,1,6,1" width="3"/>
                     <Label text="停止(保力值):" font="13" textcolor="#FF333333" float="false" width="104" height="32"/>
-                    <Edit name="tab_page_three_left_retention" enabled="false" text="0" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonly="true"/>
+                    <Edit name="tab_page_three_left_retention" enabled="false" text="0" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
                     <Container width="2"/>
                     <Label text="N" font="9" textcolor="#FF999999"/>
                 </HorizontalLayout>

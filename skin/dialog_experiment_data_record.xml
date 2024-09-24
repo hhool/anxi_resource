@@ -47,9 +47,9 @@
         <HorizontalLayout height="44">
             <VerticalLayout width="320" padding="1,10,0,0" bkcolor="#FFF0F0F0">
                 <HorizontalLayout>
-                    <DateTime name="date_time_start" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="0,0,10,0"/>
+                    <DateTime name="date_time_start" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonlyex="false" bkcolor="#FFF0F0F0" padding="0,0,10,0"/>
                     <Label bkimage="icon_to.png" padding="0,8,4,0" width="20" height="20"/>
-                    <DateTime name="date_time_end" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonly="false" bkcolor="#FFF0F0F0" padding="10,0,0,0"/>
+                    <DateTime name="date_time_end" text="2024-08-12" font="9" align="center" width="120" maxchar="19" numberonlyex="false" bkcolor="#FFF0F0F0" padding="10,0,0,0"/>
                 </HorizontalLayout>
             </VerticalLayout>
             <VerticalLayout padding="15,15,0,0">

@@ -57,13 +57,13 @@
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="激振时间(100ms)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonly="true"/>
+                            <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonlyex="true"/>
                             <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 280, 50"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="停止时间(100ms)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_clip_time_paused" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonly="true"/>
+                            <Edit name="edit_exp_clip_time_paused" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonlyex="true"/>
                             <Label name="text_exp_clip_time_paused" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 280, 50"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
@@ -77,14 +77,14 @@
                         <HorizontalLayout >
                             <Container width="4"/>
                             <Label text="最大循环周次(cycle)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonly="true"/>
+                            <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonlyex="true"/>
                             <Label text="x10^" font="9" textcolor="#FF333333" float="true" pos="200, 20, 226, 50"/>
-                            <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 20, 242, 50" maxchar="2" numberonly="true"/>
+                            <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 20, 242, 50" maxchar="2" numberonlyex="true"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="频率动态波范围(Hz)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_frequency_fluctuations_range" text="300" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonly="true"/>
+                            <Edit name="edit_frequency_fluctuations_range" text="300" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonlyex="true"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
                 </VerticalLayout>

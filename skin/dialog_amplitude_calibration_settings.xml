@@ -59,25 +59,25 @@
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Button text="20%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
-            <Edit name="tab_page_three_left_amp_level_one" text="30" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
+            <Edit name="tab_page_three_left_amp_level_one" text="30" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonlyex="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Button text="40%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
-            <Edit name="tab_page_three_left_amp_level_two" text="38" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
+            <Edit name="tab_page_three_left_amp_level_two" text="38" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonlyex="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Button text="60%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
-            <Edit name="tab_page_three_left_amp_level_third" text="47" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
+            <Edit name="tab_page_three_left_amp_level_third" text="47" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonlyex="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8" />
           <HorizontalLayout height="18" padding="0,0,36,0">
             <Button text="80%" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
             <Button text="-->" font="13" textcolor="#FF666666" align="center" enabled="false" disabledtextcolor="#FF666666"/>
-            <Edit name="tab_page_three_left_amp_level_fourth" text="54" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonly="true"/>
+            <Edit name="tab_page_three_left_amp_level_fourth" text="54" font="11" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" align="center" width="64" padding="24,0,0,0" maxchar="8" numberonlyex="true"/>
           </HorizontalLayout>
           <VerticalLayout height="8"/>
           <VerticalLayout height="4"/>

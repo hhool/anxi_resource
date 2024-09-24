@@ -60,7 +60,7 @@
                     <Container width="8"/>
                     <Label text="开始循环(100ms)" font="13" textcolor="#FF666666"/>
                 </HorizontalLayout>
-                <Edit name="edit_sampling_start_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonly="true"/>
+                <Edit name="edit_sampling_start_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
             </VerticalLayout>
             <VerticalLayout bordersize="1" align="center" height="64">
                 <Container height="4"/>
@@ -68,7 +68,7 @@
                     <Container width="8"/>
                     <Label text="结束循环(100ms)" font="13" textcolor="#FF666666"/>
                 </HorizontalLayout>
-                <Edit name="edit_sampling_end_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonly="true"/>
+                <Edit name="edit_sampling_end_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
             </VerticalLayout>
             <VerticalLayout bordersize="1" align="center" height="84">
                 <Container height="4"/>
@@ -76,7 +76,7 @@
                     <Container width="8"/>
                     <Label text="采样间隔(100ms)" font="13" textcolor="#FF666666"/>
                 </HorizontalLayout>
-                <Edit name="edit_sampling_interval" text="20" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonly="true"/>
+                <Edit name="edit_sampling_interval" text="20" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
                 <Text name="text_sampling_interval" text="=2S" font="13" padding="8,0,8,0" textcolor="#FF999999"/>
             </VerticalLayout>
         </VerticalLayout>
