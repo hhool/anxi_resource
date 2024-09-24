@@ -78,7 +78,7 @@
             <HorizontalLayout float="false" pos="0,256,256,288">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="应力比" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_ratio_stress_axially" text="-1" font="13" textcolor="#FF333333" bkcolor="#FFADFF2F" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" readonly="true" mouse="false" />
+                <Edit name="tm_page_first_left_ratio_stress_axially" text="-1" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" readonly="true" mouse="false" />
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,310,256,342" padding="0,10,0,0">
                 <Label padding="1,1,6,1" width="3"/>
@@ -90,12 +90,12 @@
             <HorizontalLayout float="false" pos="0,342,256,374">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="振幅A(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_amplitude_axially" text="15" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_amplitude_axially" text="15" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,374,256,406">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="应力位移系数Cs:" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_dc_stress_axially" text="13.57" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_dc_stress_axially" text="13.57" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,406,256,438">
                 <Label padding="1,1,6,1" width="3"/>
@@ -116,7 +116,7 @@
             <HorizontalLayout float="false" pos="0,470,256,502">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="过渡段半径(R0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_radus_trans_axially" text="22.3" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_radus_trans_axially" text="22.3" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
@@ -134,7 +134,7 @@
             <HorizontalLayout float="false" pos="0,566,256,598">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="试验段长度(L2)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_exp_section_trans_axially" text="15.0" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_exp_section_trans_axially" text="15.0" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
         </VerticalLayout>
         <VerticalLayout name="tab_page_first_right" padding="2,0,10,0" bkcolor="#FFFFFFFF" vscrollbar="true" hscrollbar="true">

@@ -78,7 +78,7 @@
             <HorizontalLayout float="false" pos="0,256,256,288">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="应力比" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_ratio_stress_stresses" text="0.35" font="13" textcolor="#FF333333" bkcolor="#FFADFF2F" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" readonly="true" mouse="false" />
+                <Edit name="tm_page_first_left_ratio_stress_stresses" text="0.35" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonly="true" padding="0,0,7,0" />
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,310,256,342" padding="0,10,0,0">
                 <Label padding="1,1,6,1" width="3"/>
@@ -90,17 +90,17 @@
             <HorizontalLayout float="false" pos="0,342,256,374">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="振幅A(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_amplitude_stresses" text="20.8" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_amplitude_stresses" text="20.8" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,374,256,406">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="应力位移系数Cs" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_dc_stress_stresses" text="14.6" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_dc_stress_stresses" text="14.6" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,406,256,438">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="静载@m(MPa)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_static_load_stresses" text="607.5" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_static_load_stresses" text="607.5" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,438,256,470">
                 <Label padding="1,1,6,1" width="3"/>
@@ -121,7 +121,7 @@
             <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="过渡段半径(R0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_radus_trans_stresses" text="22.0" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_radus_trans_stresses" text="22.0" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,534,256,566">
                 <Label padding="1,1,6,1" width="3"/>
@@ -129,7 +129,7 @@
                     <Label text="过渡段长度(L1)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonly="true"/>
                     <Label text="(11⩽L1⩽12mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
-                <Edit name="tm_page_first_left_length_trans_stresses" text="12" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_length_trans_stresses" text="11.9" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,566,256,598">
                 <Label padding="1,1,6,1" width="3"/>
@@ -139,7 +139,7 @@
             <HorizontalLayout float="false" pos="0,598,256,630">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="试验段长度(L2)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_exp_section_trans_stresses" text="15.7" font="13" readonly="true" bkcolor="#FFADFF2F" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_exp_section_trans_stresses" text="15.7" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonly="true" padding="0,0,7,0"/>
             </HorizontalLayout>
         </VerticalLayout>
         <VerticalLayout name="tab_page_first_right" padding="2,0,10,0" bkcolor="#FFFFFFFF" vscrollbar="true" hscrollbar="true">

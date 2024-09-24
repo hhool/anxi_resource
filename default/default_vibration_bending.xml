@@ -8,7 +8,7 @@
     <material_name></material_name>
     <elastic_modulus>116.000000</elastic_modulus>
     <density>4379.000000</density>
-    <max_stress>209.000000</max_stress>
+    <max_stress>208.000000</max_stress>
     <stress_ratio>-1.000000</stress_ratio>
 </base_param>
 <result type="vibration">
