@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="360,240" mininfo="360,240" caption="0,0,0,30" roundcorner="4,4,4,4">
+<Window size="360,180" mininfo="360,180" caption="0,0,0,30" roundcorner="4,4,4,4">
     <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
     <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
     <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -49,18 +49,6 @@
             <HorizontalLayout name="body.settings" padding="10,10,10,0">
                 <!--body.static_load_settings-->
                 <VerticalLayout name="body.static_load_settings">
-                    <VerticalLayout height="16" />
-                    <HorizontalLayout height="18">
-                        <Container width="48"/>
-                        <Option name="tab_page_three_left_move_up" text="向上移动" font="13" group="direction"/>
-                        <Option name="tab_page_three_left_move_down" text="向下移动" font="13" selected="true" group="direction"/>
-                    </HorizontalLayout>
-                    <VerticalLayout height="8" />
-                    <HorizontalLayout height="18">
-                        <Container width="48"/>
-                        <Option name="tab_page_three_left_pull" text="拉" font="13" group="action"/>
-                        <Option name="tab_page_three_left_push" text="压" font="13" selected="true" group="action"/>
-                    </HorizontalLayout>
                     <VerticalLayout height="16" />
                     <HorizontalLayout pos="0,116,0,148">
                         <Container width="48"/>

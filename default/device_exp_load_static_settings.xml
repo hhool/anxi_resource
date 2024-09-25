@@ -1,6 +1,4 @@
 <device_exp_load_static_settings>
-    <direct>down</direct>
-    <action>push</action>
     <speed>50</speed>
     <retention>100</retention>
 </device_exp_load_static_settings>
