@@ -37,10 +37,10 @@
             <VerticalLayout>
                 <HorizontalLayout height="40">
                     <Label padding="1,10,6,12" width="3" height="20" />
-                    <Button text="测试选项" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
+                    <Button text="测试参数" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
                 </HorizontalLayout>
                 <Container height="2"/>
-                <HorizontalLayout height="22">
+                <!--<HorizontalLayout height="22">
                     <Container width="4"/>
                     <Option name="tab_page_three_left_move_up" text="向上移动" textcolor="#FF333333" enabled="false" font="13" group="direction"/>
                     <Option name="tab_page_three_left_move_down" text="向下移动" textcolor="#FF333333" selected="true" font="13" enabled="false" group="direction"/>
@@ -54,7 +54,7 @@
                 <HorizontalLayout height="40">
                     <Label padding="1,10,6,12" width="3" height="20" />
                     <Button text="测试参数" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
-                </HorizontalLayout>
+                </HorizontalLayout>-->
                 <HorizontalLayout bordersize="1" float="false" pos="0,116,384,148">
                     <Label padding="1,1,6,1" width="3"/>
                     <Label text="保力(速度):" font="13" textcolor="#FF333333" float="false" width="104" height="32"/>
