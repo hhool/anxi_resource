@@ -44,7 +44,7 @@
           <Label name="menu_icon_design_store" bkimage="icon_design_store.png" padding="0,5,5,0" width="20" height="20"/>
           <Button name="menu_btn_design_store" text="设计存储" align="left" font="14" textcolor="#FF386382"/>
         </HorizontalLayout>
-        <HorizontalLayout width="70" height="30" bkcolor="#FFF0F0F0" padding="0,5,5,0">
+        <HorizontalLayout width="70" height="30" bkcolor="#FFF0F0F0" padding="0,5,5,0" visible="false">
           <Label name="menu_icon_design_back" bkimage="icon_design_back.png" padding="0,5,5,0" width="20" height="20"/>
           <Button name="menu_btn_back" text="返回" align="left" font="14" textcolor="#FF386382"/>
         </HorizontalLayout>
