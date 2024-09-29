@@ -56,25 +56,28 @@
             </HorizontalLayout>
             <VerticalLayout bordersize="1" align="center" height="64">
                 <Container height="4"/>
-                <HorizontalLayout>
+                <HorizontalLayout >
                     <Container width="8"/>
-                    <Label text="开始循环(100ms)" font="13" textcolor="#FF666666"/>
+                    <Label text="开始循环(100ms)" font="13" textcolor="#FF666666" />
+                    <Button name="btn_start_pos_tips"  tooltip="开始试验采样延时,数值等于零为立即开始." width="16" height="16" padding="10,12,10,7" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                 </HorizontalLayout>
                 <Edit name="edit_sampling_start_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
             </VerticalLayout>
             <VerticalLayout bordersize="1" align="center" height="64">
                 <Container height="4"/>
-                <HorizontalLayout>
+                <HorizontalLayout >
                     <Container width="8"/>
-                    <Label text="结束循环(100ms)" font="13" textcolor="#FF666666"/>
+                    <Label text="结束循环(100ms)" font="13" textcolor="#FF666666" />
+                    <Button name="btn_end_pos_tips" tooltip="结束试验时间点,大于开始时间,数据等于零为持续采样,用户手动操作停止试验为止." width="16" height="16" padding="10,12,10,7" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                 </HorizontalLayout>
                 <Edit name="edit_sampling_end_pos" text="0" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
             </VerticalLayout>
             <VerticalLayout bordersize="1" align="center" height="84">
                 <Container height="4"/>
-                <HorizontalLayout>
+                <HorizontalLayout >
                     <Container width="8"/>
-                    <Label text="采样间隔(100ms)" font="13" textcolor="#FF666666"/>
+                    <Label text="采样间隔(100ms)" font="13" textcolor="#FF666666" />
+                    <Button name="btn_sampling_interval_tips"  tooltip="采样频率,用户根据试验需求和机器性能设定." width="16" height="16" padding="10,12,10,7" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                 </HorizontalLayout>
                 <Edit name="edit_sampling_interval" text="20" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" padding="8,0,8,0" maxchar="8" numberonlyex="true"/>
                 <Text name="text_sampling_interval" text="=2S" font="13" padding="8,0,8,0" textcolor="#FF999999"/>
