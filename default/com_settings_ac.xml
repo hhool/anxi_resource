@@ -6,7 +6,7 @@
         <data_bits>5</data_bits>
         <stop_bits>2</stop_bits>
         <parity>space</parity>
-        <flow_control>hardware</flow_control>
+        <flow_control>none</flow_control>
         <timeout>1000</timeout>
     </com_port>
 </com_settings>

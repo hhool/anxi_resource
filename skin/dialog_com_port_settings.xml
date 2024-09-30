@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="502,270" mininfo="502,270" caption="0,0,0,30" roundcorner="4,4,4,4">
+<Window size="502,290" mininfo="502,290" caption="0,0,0,30" roundcorner="4,4,4,4">
   <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
   <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
   <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -46,7 +46,7 @@
     <!--body-->
     <HorizontalLayout name="body" bkcolor="#FFFFFFFF" padding="1,0,1,1">
       <!--body.com_port_settings-->
-      <HorizontalLayout name="body.com_port_settings" height="210" padding="10,10,10,0">
+      <HorizontalLayout name="body.com_port_settings" height="240" padding="10,10,10,0">
         <!--body.com_port_setting_a-->
         <VerticalLayout name="body.com_port_setting_a" width="240" bordersize="1" bordercolor="#FFF0F0F0">
           <HorizontalLayout bordersize="1">
@@ -115,6 +115,15 @@
               <ListLabelElement text="even" textpadding="4,1,1,1"/>
               <ListLabelElement text="mark" textpadding="4,1,1,1"/>
               <ListLabelElement text="space" textpadding="4,1,1,1"/>
+            </Combo>
+          </HorizontalLayout>
+          <VerticalLayout height="2"/>
+          <HorizontalLayout>
+            <Label text="流控制:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="flow_control_ua" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="hardware" textpadding="4,1,1,1"/>
+              <ListLabelElement text="software" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="16"/>
@@ -187,6 +196,15 @@
               <ListLabelElement text="even" textpadding="4,1,1,1"/>
               <ListLabelElement text="mark" textpadding="4,1,1,1"/>
               <ListLabelElement text="space" textpadding="4,1,1,1"/>
+            </Combo>
+          </HorizontalLayout>
+          <VerticalLayout height="2"/>
+          <HorizontalLayout>
+            <Label text="流控制:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
+            <Combo name="flow_control_sl" droptype="droplist" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,20,0">
+              <ListLabelElement text="none" selected="true" textpadding="4,1,1,1"/>
+              <ListLabelElement text="hardware" textpadding="4,1,1,1"/>
+              <ListLabelElement text="software" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
           <VerticalLayout height="16"/>
