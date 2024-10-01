@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window bktrans="true" size="100,250">
+<Window bktrans="true" size="100,210">
 	<Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
 	<Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
 	<Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -42,9 +42,6 @@
 			</ListContainerElement>
 			<ListContainerElement name="menu_design_item_device_settings" height="40" inset="10,0,0,0">
 				<Label name="label_design_item_device_settings" text="设备配置" font="13" textcolor="#FF666666" mouse="false"/>
-			</ListContainerElement>
-			<ListContainerElement name="menu_design_item_modify_address" height="40" inset="10,0,0,0">
-				<Label name="label_design_item_modify_address" text="修改地址" font="13" textcolor="#FF666666" mouse="false"/>
 			</ListContainerElement>
 			<ListContainerElement height="2" inset="10,0,0,0" bkcolor="#FF999999"/>
 			<ListContainerElement name="menu_design_item_read_solution" height="40" inset="10,0,0,0">
