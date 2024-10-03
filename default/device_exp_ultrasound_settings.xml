@@ -1,5 +1,5 @@
 <device_exp_ultrasound_settings>
-    <exp_clipping_enable>enable</exp_clipping_enable>
+    <exp_clipping_enable>disable</exp_clipping_enable>
     <exp_clip_time_duration>50</exp_clip_time_duration>
     <exp_clip_time_paused>50</exp_clip_time_paused>
     <exp_max_cycle_count>1</exp_max_cycle_count>

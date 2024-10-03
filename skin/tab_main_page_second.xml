@@ -51,7 +51,7 @@
                 <VerticalLayout bkcolor="#FFFFFFFF">
                     <HorizontalLayout align="left" height="28" width="240">
                         <Container width="4"/>
-                        <CheckBox name="exp_clip_set" text="试验间断设定" font="12" selected="true"/>
+                        <CheckBox name="exp_clip_set" text="试验间断设定" font="12" selected="false"/>
                     </HorizontalLayout>
                     <HorizontalLayout height="68">
                         <HorizontalLayout>
