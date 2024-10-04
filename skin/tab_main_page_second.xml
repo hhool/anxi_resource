@@ -58,7 +58,8 @@
                             <Container width="4"/>
                             <Label text="激振时间(100ms)" font="13" textcolor="#FF666666"/>
                             <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonlyex="true"/>
-                            <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 280, 50"/>
+                            <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 240, 50"/>
+                            <Button name="btn_exp_clip_time_tips" tooltip="有效参数[1,990]=>[0.1,99]秒" width="16" height="16" float="true" pos="240,28,256,44" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
@@ -80,6 +81,7 @@
                             <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonlyex="true"/>
                             <Label text="x10^" font="9" textcolor="#FF333333" float="true" pos="200, 20, 226, 50"/>
                             <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 20, 242, 50" maxchar="2" numberonlyex="true"/>
+                            <Button name="btn_exp_max_cycle_count_tips" tooltip="最大值1x10^18" width="16" height="16" float="true" pos="256,28,272,44" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
