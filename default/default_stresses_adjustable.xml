@@ -6,7 +6,7 @@
 </header>
 <base_param>
     <material_name>铝合金</material_name>
-    <elastic_modulus>117.000000</elastic_modulus>
+    <elastic_modulus>116.000000</elastic_modulus>
     <density>4379.000000</density>
     <max_stress>900.000000</max_stress>
     <stress_ratio>0.350000</stress_ratio>
