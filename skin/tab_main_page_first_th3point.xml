@@ -78,35 +78,45 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,310,256,342">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="振幅A(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_amplitude_th3point" text="29" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="理论底端振幅A(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_theory_amplitude_th3point" text="28.3" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,342,256,374">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="应力位移系数Cs" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_dc_stress_th3point" text="6.20" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="理论应力位移系数Cs" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_theory_dc_stress_th3point" text="6.45" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,374,256,406">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="静载@m(MPa)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_static_load_th3point" text="607.5" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="试验底端振幅A'(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_amplitude_th3point" text="28.3" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,406,256,438">
+                <Label padding="1,1,6,1" width="3"/>
+                <Label text="仿真应力位移系数Cs'" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_dc_stress_th3point" text="6.44" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+            </HorizontalLayout>
+            <HorizontalLayout float="false" pos="0,438,256,470">
+                <Label padding="1,1,6,1" width="3"/>
+                <Label text="静载@m(MPa)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_static_load_th3point" text="547.5" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+            </HorizontalLayout>
+            <HorizontalLayout float="false" pos="0,470,256,502">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="试件宽度(b)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_speciments_width_th3point" text="10" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
-            <HorizontalLayout float="false" pos="0,438,256,470">
+            <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="试件厚度(h)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_speciments_height_th3point" text="4" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
-            <HorizontalLayout float="false" pos="0,470,256,502">
+            <HorizontalLayout float="false" pos="0,534,256,566">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="试件长度(L)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_speciments_length_th3point" text="31.6" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
-            <HorizontalLayout float="false" pos="0,502,256,534">
+            <HorizontalLayout float="false" pos="0,566,256,598">
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="支撑点间距(L0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Edit name="tm_page_first_left_length_parallel_th3point" text="17.2" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>

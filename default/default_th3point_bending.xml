@@ -12,11 +12,13 @@
     <stress_ratio>0.500000</stress_ratio>
 </base_param>
 <result type="th3point">
-    <f_eamplitude>29.000000</f_eamplitude>
-    <f_dc_stress_MPa>6.200000</f_dc_stress_MPa>
+    <f_theory_eamplitude>28.290000</f_theory_eamplitude>
+    <f_theory_dc_stress_MPa>6.450000</f_theory_dc_stress_MPa>
+    <f_eamplitude>28.340000</f_eamplitude>
+    <f_dc_stress_MPa>6.440000</f_dc_stress_MPa>
     <f_static_load_MPa>547.500000</f_static_load_MPa>
     <f_specimen_width_B>10.000000</f_specimen_width_B>
     <f_specimen_thickness_h>4.000000</f_specimen_thickness_h>
-    <f_specimen_length_L>31.600000</f_specimen_length_L>
-    <f_support_distance_L0>17.200000</f_support_distance_L0>
+    <f_specimen_length_L>31.700000</f_specimen_length_L>
+    <f_support_distance_L0>17.260000</f_support_distance_L0>
 </result>
