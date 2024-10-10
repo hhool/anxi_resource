@@ -40,12 +40,13 @@
                     <Button text="测试参数" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
                 </HorizontalLayout>
                 <Container height="2"/>
-                <!--<HorizontalLayout height="22">
+                <HorizontalLayout height="22">
                     <Container width="4"/>
                     <Option name="tab_page_three_left_move_up" text="向上移动" textcolor="#FF333333" enabled="false" font="13" group="direction"/>
                     <Option name="tab_page_three_left_move_down" text="向下移动" textcolor="#FF333333" selected="true" font="13" enabled="false" group="direction"/>
                 </HorizontalLayout>
-                <HorizontalLayout height="22">
+                <Container height="22"/>
+                <!--<HorizontalLayout height="22">
                     <Container width="4"/>
                     <Option name="tab_page_three_left_pull" text="拉" textcolor="#FF333333" group="action" enabled="false" font="13"/>
                     <Option name="tab_page_three_left_push" text="压" textcolor="#FF333333" selected="true" enabled="false" font="13" group="action"/>

@@ -1,4 +1,5 @@
 <device_exp_load_static_settings>
+    <direct>1</direct>
     <speed>50</speed>
     <retention>100</retention>
 </device_exp_load_static_settings>
