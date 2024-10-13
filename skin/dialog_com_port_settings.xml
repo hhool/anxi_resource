@@ -68,11 +68,11 @@
               <ListLabelElement text="COM10" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
-          <VerticalLayout height="2"/>
+          <!--<VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
             <Edit name="com_adr_ua" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="2" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonlyex="true"/>
-          </HorizontalLayout>
+          </HorizontalLayout>-->
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
@@ -149,11 +149,11 @@
               <ListLabelElement text="COM10" textpadding="4,1,1,1"/>
             </Combo>
           </HorizontalLayout>
-          <VerticalLayout height="2"/>
+          <!--<VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="地址:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
             <Edit name="com_adr_sl" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" text="1" font="13" float="false" height="36" algin="left" padding="0,0,20,0" textcolor="#FF666666" maxchar="8" numberonlyex="true"/>
-          </HorizontalLayout>
+          </HorizontalLayout>-->
           <VerticalLayout height="2"/>
           <HorizontalLayout>
             <Label text="波特率:" font="13" textcolor="#FF666666" align="left" padding="20,0,0,0" width="80"/>
