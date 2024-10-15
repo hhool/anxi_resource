@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<header>
-    <solution_type>2</solution_type>
-    <version>1</version>
-    <name>三点式样名称</name>
-</header>
-<base_param>
-    <material_name></material_name>
-    <elastic_modulus>116.000000</elastic_modulus>
-    <density>4379.000000</density>
-    <max_stress>730.000000</max_stress>
-    <stress_ratio>0.500000</stress_ratio>
-</base_param>
-<result type="th3point">
-    <f_theory_eamplitude>28.290000</f_theory_eamplitude>
-    <f_theory_dc_stress_MPa>6.450000</f_theory_dc_stress_MPa>
-    <f_eamplitude>28.340000</f_eamplitude>
-    <f_dc_stress_MPa>6.440000</f_dc_stress_MPa>
-    <f_static_load_MPa>547.500000</f_static_load_MPa>
-    <f_specimen_width_B>10.000000</f_specimen_width_B>
-    <f_specimen_thickness_h>4.000000</f_specimen_thickness_h>
-    <f_specimen_length_L>31.700000</f_specimen_length_L>
-    <f_support_distance_L0>17.260000</f_support_distance_L0>
-</result>
+<solution>
+    <header>
+        <solution_type>2</solution_type>
+        <version>1</version>
+        <name>三点式样名称</name>
+    </header>
+    <base_param>
+        <material_name></material_name>
+        <elastic_modulus>116.000000</elastic_modulus>
+        <density>4379.000000</density>
+        <max_stress>730.000000</max_stress>
+        <stress_ratio>0.500000</stress_ratio>
+    </base_param>
+    <result type="th3point">
+        <f_theory_eamplitude>28.290000</f_theory_eamplitude>
+        <f_theory_dc_stress_MPa>6.450000</f_theory_dc_stress_MPa>
+        <f_eamplitude>28.340000</f_eamplitude>
+        <f_dc_stress_MPa>6.440000</f_dc_stress_MPa>
+        <f_static_load_MPa>547.500000</f_static_load_MPa>
+        <f_specimen_width_B>10.000000</f_specimen_width_B>
+        <f_specimen_thickness_h>4.000000</f_specimen_thickness_h>
+        <f_specimen_length_L>31.700000</f_specimen_length_L>
+        <f_support_distance_L0>17.260000</f_support_distance_L0>
+    </result>
+</solution>
