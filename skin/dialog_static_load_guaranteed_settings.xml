@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="360,180" mininfo="360,180" caption="0,0,0,30" roundcorner="4,4,4,4">
+<Window size="360,280" mininfo="360,280" caption="0,0,0,30" roundcorner="4,4,4,4">
     <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
     <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
     <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -49,10 +49,16 @@
             <HorizontalLayout name="body.settings" padding="10,10,10,0">
                 <!--body.static_load_settings-->
                 <VerticalLayout name="body.static_load_settings">
+                    <VerticalLayout height="12" />
+                    <HorizontalLayout height="18">
+                        <Container width="48"/>
+                        <Option name="tab_page_three_left_opt_displacement" text="位移控" font="13" group="ctrtype"/>
+                        <Option name="tab_page_three_left_opt_retention" text="力控" font="13" selected="true" group="ctrtype"/>
+                    </HorizontalLayout>
                     <VerticalLayout height="16" />
                     <HorizontalLayout pos="0,116,0,148">
                         <Container width="48"/>
-                        <Label text="保力(速度):" font="13" textcolor="#FF333333" width="96" height="32"/>
+                        <Label text="速度(位移):" font="13" textcolor="#FF333333" width="96" height="32"/>
                         <Edit name="tab_page_three_left_speed" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
                         <Container width="8"/>
                         <Label text="mm/min" font="11" textcolor="#FF666666"/>
@@ -60,13 +66,26 @@
                     <VerticalLayout height="1"/>
                     <HorizontalLayout pos="0,148,0,180">
                         <Container width="48"/>
-                        <Label text="停止(保力值):" font="13" textcolor="#FF333333" float="false" width="96" height="32"/>
+                        <Label text="停止(位移值):" font="13" textcolor="#FF333333" float="false" width="96" height="32"/>
+                        <Edit name="tab_page_three_left_displacement" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
+                        <Container width="8"/>
+                        <Label text="mm" font="11" textcolor="#FF666666"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="1"/>
+                    <HorizontalLayout pos="0,180,0,212">
+                        <Container width="48"/><Label text="停止(保力值):" font="13" textcolor="#FF333333" float="false" width="96" height="32"/>
                         <Edit name="tab_page_three_left_retention" text="100" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
                         <Container width="8"/>
-                        <Label text="N" font="11" textcolor="#FF666666"/>
+                        <Label text="N" font="11" textcolor="#FF666666"/>     
+                    </HorizontalLayout>
+                    <VerticalLayout height="1"/>
+                    <HorizontalLayout pos="0,212,0,234">
+                        <Container width="48"/><Label text="保载时长:" font="13" textcolor="#FF333333" float="false" width="96" height="32"/>
+                        <Edit name="tab_page_three_left_keep_load_duration" text="120" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
+                        <Container width="8"/>
+                        <Label text="S" font="11" textcolor="#FF666666"/>     
                     </HorizontalLayout>
                     <VerticalLayout height="11"/>
-                    <VerticalLayout height="4"/>
                 </VerticalLayout>
             </HorizontalLayout>
             <!--body.settings-->
