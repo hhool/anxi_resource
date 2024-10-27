@@ -79,7 +79,7 @@
                         <Label text="N" font="11" textcolor="#FF666666"/>     
                     </HorizontalLayout>
                     <VerticalLayout height="1"/>
-                    <HorizontalLayout pos="0,212,0,234">
+                    <HorizontalLayout pos="0,212,0,244">
                         <Container width="48"/><Label text="保载时长:" font="13" textcolor="#FF333333" float="false" width="96" height="32"/>
                         <Edit name="tab_page_three_left_keep_load_duration" text="120" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" float="false" height="32" width="96" maxchar="8" numberonlyex="true"/>
                         <Container width="8"/>
