@@ -78,7 +78,7 @@
                 <HorizontalLayout height="64" bkcolor="#FFFFFFFF">
                     <VerticalLayout width="136">
                         <Container width="16"/>
-                        <Label text="位移" font="13" textcolor="#FF333333"/>
+                        <Label text="位移(mm)" font="13" textcolor="#FF333333"/>
                         <Label name="tab_page_three_label_displacement" text="0.00" font="27" textcolor="#FF333333"/>
                     </VerticalLayout>
                     <Control width="64"/>
