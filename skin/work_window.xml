@@ -110,13 +110,22 @@
           <Button name="args_area_name_stress_ratio" text="应力比" align="left" font="17" enabled="false" disabledtextcolor="#FF333333" width="128" height="36"/>
         </HorizontalLayout>
         <Button name="args_area_value_stress_ratio" text="9999" align="left" font="26" enabled="false" disabledtextcolor="#FF333333" height="36"/>
-      </VerticalLayout><VerticalLayout width="8"/>
+      </VerticalLayout>
+      <VerticalLayout width="8"/>
       <VerticalLayout bkcolor="#FFFFFFFF">
         <HorizontalLayout>
           <Label bkimage="icon_args_area_static_load.png" padding="0,8,4,0" width="20" height="20"/>
           <Button name="args_area_name_static_load_n" text="静载力(N)" align="left" font="17" enabled="false" disabledtextcolor="#FF333333" width="128" height="36"/>
         </HorizontalLayout>
         <Button name="args_area_value_static_load_n" text="-" align="left" font="26" enabled="false" disabledtextcolor="#FF333333" height="36"/>
+      </VerticalLayout>
+      <VerticalLayout width="8"/>
+      <VerticalLayout bkcolor="#FFFFFFFF">
+        <HorizontalLayout>
+          <Label bkimage="icon_args_area_static_load.png" padding="0,8,4,0" width="20" height="20"/>
+          <Button name="args_area_name_static_shift_mm" text="静载位移(mm)" align="left" font="17" enabled="false" disabledtextcolor="#FF333333" width="128" height="36"/>
+        </HorizontalLayout>
+        <Button name="args_area_value_static_shift_mm" text="-" align="left" font="26" enabled="false" disabledtextcolor="#FF333333" height="36"/>
       </VerticalLayout>
     </HorizontalLayout>
     <HorizontalLayout height="10"/>
