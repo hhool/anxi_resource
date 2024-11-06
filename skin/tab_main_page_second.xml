@@ -56,16 +56,17 @@
                     <HorizontalLayout height="68">
                         <HorizontalLayout>
                             <Container width="4"/>
-                            <Label text="激振时间(100ms)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonlyex="true"/>
-                            <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 240, 50"/>
-                            <Button name="btn_exp_clip_time_tips" tooltip="有效参数[1,990]=>[0.1,99]秒" width="16" height="16" float="true" pos="240,28,256,44" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
+                            <Label text="激振时间(100ms)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
+                            <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="16" numberonlyex="true"/>
+                            <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Button name="btn_exp_clip_time_tips" tooltip="有效参数[1,10^15)=>[0.1,10^14)秒" width="16" height="16" float="true" pos="204,7,220,23" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
-                            <Label text="停止时间(100ms)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_clip_time_paused" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="108, 20, 196, 50" maxchar="8" numberonlyex="true"/>
-                            <Label name="text_exp_clip_time_paused" text="=5S" font="13" textcolor="#FF333333" float="true" pos="200, 20, 280, 50"/>
+                            <Label text="停止时间(100ms)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
+                            <Edit name="edit_exp_clip_time_paused" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="16" numberonlyex="true"/>
+                            <Label name="text_exp_clip_time_paused" text="=5S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Button name="btn_exp_clip_time_paused_tips" tooltip="有效参数[1,1x10^15)=>[0.1,10^14)秒" width="16" height="16" float="true" pos="204,7,220,23" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
                 </VerticalLayout>
@@ -77,22 +78,48 @@
                     <HorizontalLayout height="68">
                         <HorizontalLayout >
                             <Container width="4"/>
-                            <Label text="最大循环周次(cycle)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonlyex="true"/>
-                            <Label text="x10^" font="9" textcolor="#FF333333" float="true" pos="200, 20, 226, 50"/>
-                            <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 20, 242, 50" maxchar="2" numberonlyex="true"/>
-                            <Button name="btn_exp_max_cycle_count_tips" tooltip="最大值1x10^18" width="16" height="16" float="true" pos="256,28,272,44" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
+                            <Label text="最大循环周次(cycle)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
+                            <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="8" numberonlyex="true"/>
+                            <Label text="x10^" font="9" textcolor="#FF333333" float="true" pos="200, 0, 226, 30"/>
+                            <Label name="text_exp_max_cycle_count_duration" text="≈13888H" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 0, 242, 30" maxchar="2" numberonlyex="true"/>
+                            <Button name="btn_exp_max_cycle_count_tips" tooltip="最大值1x10^18" width="16" height="16" float="true" pos="246,8,262,24" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
-                            <Label text="频率动态波范围(Hz)" font="13" textcolor="#FF666666"/>
-                            <Edit name="edit_frequency_fluctuations_range" text="300" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 20, 200, 50" maxchar="8" numberonlyex="true"/>
+                            <Label text="频率动态波范围(Hz)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
+                            <Edit name="edit_frequency_fluctuations_range" text="300" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="8" numberonlyex="true"/>
+                            <Button name="btn_frequency_fluctuations_tips" tooltip="试验第一次采样值为基准参考" width="16" height="16" float="true" pos="204,8,220,24" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
                 </VerticalLayout>
             </HorizontalLayout>
         </VerticalLayout>
         <VerticalLayout name="tab_page_second_right" float="false" width="160" padding="10,0,10,0" vscrollbar="true">
+            <HorizontalLayout height="40">
+                <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF0256FF"/>
+                <Button text="设备准备" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
+            </HorizontalLayout>
+            <Container height="6"/>
+            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
+                <Container width="1"/>
+                <Button name="btn_sa_up" text="静载机上升" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+            </HorizontalLayout>
+            <Container height="6"/>
+            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
+                <Container width="1"/>
+                <Button name="btn_sa_down" text="静载机下降" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+            </HorizontalLayout>
+            <Container height="6"/>
+            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
+                <Container width="1"/>
+                <Button name="btn_sa_stop" text="静载机停止" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+            </HorizontalLayout>
+            <Container height="6"/>
+            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
+                <Container width="1"/>
+                <Button name="btn_aa_setting" text="振幅校准" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+            </HorizontalLayout>
             <HorizontalLayout height="40">
                 <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF0256FF"/>
                 <Button text="试验准备" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
@@ -118,45 +145,21 @@
             </HorizontalLayout>
             <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
                 <Container width="1"/>
-                <Button name="btn_exp_start" text="开始测试" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                <Button name="btn_exp_start" text="开始试验" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
             </HorizontalLayout>
             <Container height="6"/>
             <HorizontalLayout name="layout_exp_pause" bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
                 <Container width="1"/>
-                <Button name="btn_exp_pause" text="暂停测试" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                <Button name="btn_exp_pause" text="暂停试验" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
             </HorizontalLayout>
             <HorizontalLayout name="layout_exp_resume" bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32" visible="false">
                 <Container width="1" height="6"/>
-                <Button name="btn_exp_resume" text="继续测试" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                <Button name="btn_exp_resume" text="继续试验" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
             </HorizontalLayout>
             <Container height="6"/>
             <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
                 <Container width="1"/>
-                <Button name ="btn_exp_stop" text="停止测试" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
-            </HorizontalLayout>
-            <HorizontalLayout height="40">
-                <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF0256FF"/>
-                <Button text="设备准备" font="14" align="left" height="38" enabled="false" disabledtextcolor="#FF333333"/>
-            </HorizontalLayout>
-            <Container height="6"/>
-            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
-                <Container width="1"/>
-                <Button name="btn_sa_up" text="静载机上升" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
-            </HorizontalLayout>
-            <Container height="6"/>
-            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
-                <Container width="1"/>
-                <Button name="btn_sa_down" text="静载机下降" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
-            </HorizontalLayout>
-            <Container height="6"/>
-            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
-                <Container width="1"/>
-                <Button name="btn_sa_stop" text="静载机停止" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
-            </HorizontalLayout>
-            <Container height="6"/>
-            <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
-                <Container width="1"/>
-                <Button name="btn_aa_setting" text="振幅校准" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                <Button name ="btn_exp_stop" text="停止试验" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
             </HorizontalLayout>
         </VerticalLayout>
     </HorizontalLayout>

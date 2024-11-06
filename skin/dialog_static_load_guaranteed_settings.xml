@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window size="360,280" mininfo="360,280" caption="0,0,0,30" roundcorner="4,4,4,4">
+<Window size="360,310" mininfo="360,310" caption="0,0,0,30" roundcorner="4,4,4,4">
     <Font id="0" name="微软雅黑" size="5" bold="true" default="false" />
     <Font id="1" name="微软雅黑" size="5" bold="false" default="false" />
     <Font id="2" name="微软雅黑" size="6" bold="true" default="false" />
@@ -54,6 +54,12 @@
                         <Container width="48"/>
                         <Option name="tab_page_three_left_opt_displacement" text="位移控" font="13" group="ctrtype"/>
                         <Option name="tab_page_three_left_opt_retention" text="力控" font="13" selected="true" group="ctrtype"/>
+                    </HorizontalLayout>
+                    <VerticalLayout height="12" />
+                    <HorizontalLayout height="18">
+                        <Container width="48"/>
+                        <Option name="tab_page_three_left_opt_move_up" text="向上" font="13" group="direction"/>
+                        <Option name="tab_page_three_left_opt_move_down" text="向下" font="13" selected="true" group="direction"/>
                     </HorizontalLayout>
                     <VerticalLayout height="16" />
                     <HorizontalLayout pos="0,116,0,148">

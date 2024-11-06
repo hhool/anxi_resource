@@ -56,12 +56,16 @@
         </HorizontalLayout>
         <!--footer-->
         <HorizontalLayout name="footer" height="40" padding="1,0,1,1" bkcolor="#FFFFFFFF">
-            <HorizontalLayout height="30" padding="1,10,1,1">
+            <HorizontalLayout name="hl_okcancel" height="30" padding="1,10,1,1" visible="false">
                 <Control width="100"/>
                 <Button name="okbtn" text="确定" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
                 <Control width="40"/>
                 <Button name="cancelbtn" text="取消" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
                 <Control width="100"/>
+            </HorizontalLayout>
+            <HorizontalLayout name="hl_ok" height="30" padding="1,10,1,1" visible="true">
+                <Control width="150"/>
+                <Button name="okbtn" text="确定" font="13" textcolor="#FFFFFFFF" width="60" height="24" normalimage="btn_normal.png" hotimage="btn_over.png" pushedimage="btn_push.png"/>
             </HorizontalLayout>
         </HorizontalLayout>
     </VerticalLayout>
