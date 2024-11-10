@@ -49,7 +49,8 @@
                 <VerticalLayout>
                     <HorizontalLayout height="32">
                         <Label bkimage="icon_args_area_amplitude.png" padding="0,8,4,0" width="20" height="20"/>
-                        <Label name="graph_amplitude_title" text="底端振幅" align="left" font="19" textcolor="#FF333333" padding="0,8,1,0" width="128" height="24"/>
+                        <Label name="graph_amplitude_title" text="底端振幅" align="left" font="19" textcolor="#FF333333" padding="0,8,1,0" width="64" height="24"/>
+                        <Label name="graph_amplitude_title_detail" text="" font="13" textcolor="#FF333333" padding="0,12,1,0" width="124" height="24"/>
                     </HorizontalLayout>
                     <!--DMGraph-->
                     <ActiveX name="graph_amplitude_canvas" clsid="{AAF89A51-7FC0-43B0-9F81-FFEFF6A8DB43}" delaycreate="false"/>
@@ -57,7 +58,8 @@
                 <VerticalLayout>
                     <HorizontalLayout height="32">
                         <Label bkimage="icon_args_area_freq.png" padding="0,8,4,0" width="20" height="20"/>
-                        <Label name="graph_stress_title" text="静载" font="19" align="left" textcolor="#FF333333" padding="1,8,0,0" width="128" height="24"/>
+                        <Label name="graph_stress_title" text="静载" font="19" align="left" textcolor="#FF333333" padding="1,8,0,0" width="32" height="24"/>
+                        <Label name="graph_stress_title_detail" text="" font="13" textcolor="#FF333333" padding="0,12,1,0" width="124" height="24"/>
                     </HorizontalLayout>
                     <!--DMGraph-->
                     <ActiveX name="graph_stress_canvas" clsid="{AAF89A51-7FC0-43B0-9F81-FFEFF6A8DB43}" delaycreate="false"/>
