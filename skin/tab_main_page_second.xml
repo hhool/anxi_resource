@@ -136,7 +136,7 @@
             <Container height="6"/>
             <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" align="center" height="32">
                 <Container width="1"/>
-                <Button name = "btn_sa_reset" text="循环次数复位" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
+                <Button name = "btn_exp_reset" text="循环次数复位" font="12" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
             </HorizontalLayout>
             <Container height="6"/>
             <HorizontalLayout height="40">
