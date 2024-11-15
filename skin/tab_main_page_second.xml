@@ -58,14 +58,14 @@
                             <Container width="4"/>
                             <Label text="激振时间(100ms)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
                             <Edit name="edit_exp_clip_time_duration" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="16" numberonlyex="true"/>
-                            <Label name="text_exp_clip_time_duration" text="=5S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Label name="text_exp_clip_time_duration" text="=5.0S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
                             <Button name="btn_exp_clip_time_tips" tooltip="有效参数[1,10^15)=>[0.1,10^14)秒" width="16" height="16" float="true" pos="204,7,220,23" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                         <HorizontalLayout>
                             <Container width="4"/>
                             <Label text="停止时间(100ms)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
                             <Edit name="edit_exp_clip_time_paused" text="50" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="16" numberonlyex="true"/>
-                            <Label name="text_exp_clip_time_paused" text="=5S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Label name="text_exp_clip_time_paused" text="=5.0S" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
                             <Button name="btn_exp_clip_time_paused_tips" tooltip="有效参数[1,1x10^15)=>[0.1,10^14)秒" width="16" height="16" float="true" pos="204,7,220,23" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
                     </HorizontalLayout>
