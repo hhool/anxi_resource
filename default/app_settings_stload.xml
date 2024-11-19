@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <devices>
+        <device name="万测静载机1.0" id="1" enabled="off"></device>
+        <device name="万测静载机2.0" id="2" enabled="true"></device>
+    </devices>
+</root>

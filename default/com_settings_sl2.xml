@@ -1,0 +1,6 @@
+<com_settings>
+    <device_com_type>4</device_com_type>
+    <adr_type>2</adr_type>
+    <ip>192.168.1.10</ip>
+    <port>5000</port>
+</com_settings>

@@ -49,11 +49,16 @@
         </VerticalLayout>
       </VerticalLayout>
       <VerticalLayout name="body_right" text="body_right" bordersize="1">
-        <HorizontalLayout bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" height="30" padding="80,17,20,0">
+      <HorizontalLayout>
+        <HorizontalLayout name="hlayout_pilot_e10c" bordersize="1" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" height="30" padding="40,17,0,0">
           <Button name="btn_pilot_e10c" text="万测试验TESTPILOT_E10C" font="13" textcolor="#FF0256FF" hottextcolor="#FFFFFFFF" pushedtextcolor="#FFFFFFFF" normalimage="btn_func_normal.png" hotimage="btn_func_over.png" pushedimage="btn_func_push.png"/>
         </HorizontalLayout>
+        <HorizontalLayout bordersize="0" bordercolor="#FF0256FF" bkcolor="#FFFFFFFF" width="20"  height="20" padding="20,22,20,0">
+          <Button name="btn_app_settings" text="" tooltip="系统设置" font="13" normalimage="btn_app_settings_normal.png" hotimage="btn_app_settings_over.png" pushedimage="btn_app_settings_down.png"/>
+        </HorizontalLayout>
+        </HorizontalLayout>
         <HorizontalLayout>
-          <Button name="closebtn" text="退出" tooltip="退出" font="14" float="true" pos="176,379,0,0" height="36" width="80" bkcolor="#FFF0F0F0" hottextcolor="#FF999999" textcolor="#FF666666" focusedtextcolor="#FF333333"/>
+          <Button name="closebtn" text="退出" tooltip="退出" font="14" float="true" pos="176,200,0,0" height="36" width="80" bkcolor="#FFF0F0F0" hottextcolor="#FF999999" textcolor="#FF666666" focusedtextcolor="#FF333333"/>
         </HorizontalLayout>
       </VerticalLayout>
     </HorizontalLayout>

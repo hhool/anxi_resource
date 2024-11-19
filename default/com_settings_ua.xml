@@ -1,5 +1,6 @@
 <com_settings>
     <device_com_type>0</device_com_type>
+    <adr_type>1</adr_type>
     <com_name>COM6</com_name>
     <com_port>
         <baud_rate>115200</baud_rate>
