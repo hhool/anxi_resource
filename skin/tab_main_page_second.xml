@@ -47,7 +47,7 @@
                     </TabLayout>
                 </VerticalLayout>
             </HorizontalLayout>
-            <HorizontalLayout name="tab_page_second_bottom" text="tab_page_second_bottom" height="96" bordersize="1" bordercolor="#FF000000">
+            <HorizontalLayout name="tab_page_second_bottom" text="tab_page_second_bottom" height="96" bordersize="1" bordercolor="#FFFFFFF">
                 <VerticalLayout bkcolor="#FFFFFFFF">
                     <HorizontalLayout align="left" height="28" width="240">
                         <Container width="4"/>
@@ -93,6 +93,9 @@
                         </HorizontalLayout>
                     </HorizontalLayout>
                 </VerticalLayout>
+                <HorizontalLayout width="20" bkcolor="#FFFFFFFF">
+                    <Button name="btn_exp_params_reset" tooltip="参数重置" normalimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'" hotimage="file='icon_tb_design_refresh_over.png' dest='0,4,16,20'" pushedimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'"/>
+                </HorizontalLayout>
             </HorizontalLayout>
         </VerticalLayout>
         <VerticalLayout name="tab_page_second_right" float="false" width="160" padding="10,0,10,0" vscrollbar="true">

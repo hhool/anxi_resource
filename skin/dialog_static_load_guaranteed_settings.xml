@@ -44,7 +44,7 @@
             </HorizontalLayout>
         </HorizontalLayout>
         <!--body-->
-        <HorizontalLayout name="body" bkcolor="#FFFFFFFF" padding="1,0,1,1">
+        <HorizontalLayout name="body" bkcolor="#FFFFFFFF" padding="1,0,1,0">
             <!--body.settings-->
             <HorizontalLayout name="body.settings" padding="10,10,10,0">
                 <!--body.static_load_settings-->
@@ -95,6 +95,9 @@
                 </VerticalLayout>
             </HorizontalLayout>
             <!--body.settings-->
+        </HorizontalLayout>
+        <HorizontalLayout height="20" bkcolor="#FFFFFFFF" padding="1,0,1,1">
+            <Button name="btn_load_params_reset" padding="330,0,5,0" tooltip="参数重置" normalimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'" hotimage="file='icon_tb_design_refresh_over.png' dest='0,4,16,20'" pushedimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'"/>
         </HorizontalLayout>
         <!--footer-->
         <HorizontalLayout name="footer" height="40" padding="1,0,1,1" bkcolor="#FFFFFFFF">

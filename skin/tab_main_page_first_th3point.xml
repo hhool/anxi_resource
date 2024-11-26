@@ -38,6 +38,7 @@
             <HorizontalLayout float="false" pos="0,0,256,40">
                 <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF000000"/>
                 <Button text="试验方案" font="14" textcolor="#FF666666" align="left" height="38" enabled="false" disabledtextcolor="#FF666666"/>
+                <Button name="btn_params_reset" width="20" height="20" padding="10,8,8,0" tooltip="参数重置" normalimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'" hotimage="file='icon_tb_design_refresh_over.png' dest='0,4,16,20'" pushedimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,40,256,72">
                 <Label padding="1,1,6,1" width="3"/>
