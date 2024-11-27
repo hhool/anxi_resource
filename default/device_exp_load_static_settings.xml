@@ -4,5 +4,5 @@
     <speed>50</speed>
     <retention>100</retention>
     <displacement>50</displacement>
-    <keep_load_duration>120</keep_load_duration>
+    <keep_load_duration>0</keep_load_duration>
 </device_exp_load_static_settings>
