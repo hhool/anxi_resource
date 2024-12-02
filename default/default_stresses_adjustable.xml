@@ -3,7 +3,7 @@
     <header>
         <solution_type>1</solution_type>
         <version>1</version>
-        <name>可调式样名称</name>
+        <name>可调试样名称</name>
     </header>
     <base_param>
         <material_name>铝合金</material_name>

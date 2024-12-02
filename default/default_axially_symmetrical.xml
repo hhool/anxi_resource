@@ -3,7 +3,7 @@
     <header>
         <solution_type>0</solution_type>
         <version>1</version>
-        <name>轴向式样名称</name>
+        <name>轴向试样名称</name>
     </header>
     <base_param>
         <material_name>钛合金</material_name>
