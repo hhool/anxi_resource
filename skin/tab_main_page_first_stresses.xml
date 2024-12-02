@@ -42,13 +42,13 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,40,256,72">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="式样名称" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_name_specimens_stresses" text="式样名称" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" padding="0,0,7,0"/>
+                <Label text="式样名称" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_name_specimens_stresses" text="式样名称" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,72,256,104">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="材料" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Combo name="tm_page_first_left_material_stresses" droptype="droplist" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" height="32" textpadding="4,1,1,1" padding="0,0,7,0">
+                <Label text="材料" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Combo name="tm_page_first_left_material_stresses" droptype="droplist" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="15" height="32" textpadding="4,1,1,1" padding="0,0,7,0">
                     <ListLabelElement text="其他材料" selected="true" textpadding="4,1,1,1" />
                     <ListLabelElement text="钛合金" textpadding="4,1,1,1"/>
                     <ListLabelElement text="铝合金" textpadding="4,1,1,1"/>
@@ -63,23 +63,23 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,160,256,192">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="弹性模量(GPa)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_elastic_stresses" text="116" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="弹性模量(GPa)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_elastic_stresses" text="116" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,192,256,224">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="密度(kg/m3)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_density_stresses" text="4379" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0" />
+                <Label text="密度(kg/m3)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_density_stresses" text="4379" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0" />
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,224,256,256">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="最大应力(@x)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_max_stress_stresses" text="900" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="最大应力(@x)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_max_stress_stresses" text="900" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,256,256,288">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="应力比" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_ratio_stress_stresses" text="0.35" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0" />
+                <Label text="应力比" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_ratio_stress_stresses" text="0.35" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0" />
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,310,256,342" padding="0,10,0,0">
                 <Label padding="1,1,6,1" width="3"/>
@@ -90,63 +90,63 @@
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,342,256,374">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="振幅A(um)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_amplitude_stresses" text="20.8" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="振幅A(um)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_amplitude_stresses" text="20.8" font="15" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,374,256,406">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="应力位移系数Cs" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_dc_stress_stresses" text="14.6" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="应力位移系数Cs" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_dc_stress_stresses" text="14.6" font="15" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,406,256,438">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="静载@m(MPa)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_static_load_stresses" text="607.5" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="静载@m(MPa)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_static_load_stresses" text="607.5" font="15" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,438,256,470">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="试验段半径(R2)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
+                    <Label text="试验段半径(R2)" font="15" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
                     <Label text="(4.5⩽R2⩽5.5mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
-                <Edit name="tm_page_first_left_radius_exp_stresses" text="5.0" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_radius_exp_stresses" text="5.0" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,470,256,502">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="平行段半径(R1)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
+                    <Label text="平行段半径(R1)" font="15" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
                     <Label text="(1.4⩽R1⩽1.6mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
-                <Edit name="tm_page_first_left_radus_parallel_stresses" text="1.5" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_radus_parallel_stresses" text="1.5" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,502,256,534">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="过渡段半径(R0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_radus_trans_stresses" text="22.0" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="过渡段半径(R0)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_radus_trans_stresses" text="22.0" font="15" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,534,256,566">
                 <Label padding="1,1,6,1" width="3"/>
                 <VerticalLayout width="128">
-                    <Label text="过渡段长度(L1)" font="13" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
+                    <Label text="过渡段长度(L1)" font="15" textcolor="#FF333333" align="left" width="128" height="22" maxchar="8" numberonlyex="true"/>
                     <Label text="(11⩽L1⩽12mm)" font="9" textcolor="#FF666666" align="left" height="10"/>
                 </VerticalLayout>
-                <Edit name="tm_page_first_left_length_trans_stresses" text="11.9" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Edit name="tm_page_first_left_length_trans_stresses" text="11.9" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,566,256,598">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="平行段长度(L0)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_left_length_parallel_stresses" text="1.7" font="13" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="平行段长度(L0)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_left_length_parallel_stresses" text="1.7" font="15" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,598,256,630">
                 <Label padding="1,1,6,1" width="3"/>
-                <Label text="试验段长度(L2)" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
-                <Edit name="tm_page_first_exp_section_trans_stresses" text="15.7" font="13" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
+                <Label text="试验段长度(L2)" font="15" textcolor="#FF333333" align="left" width="128" height="32"/>
+                <Edit name="tm_page_first_exp_section_trans_stresses" text="15.7" font="15" readonly="true" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" enabled="false" disabledtextcolor="#FF999999" mouse="false" algin="left" height="32" maxchar="8" numberonlyex="true" padding="0,0,7,0"/>
             </HorizontalLayout>
         </VerticalLayout>
         <VerticalLayout name="tab_page_first_right" padding="2,0,10,0" bkcolor="#FFFFFFFF" vscrollbar="true" hscrollbar="true">
             <HorizontalLayout height="40">
                 <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF0000FF"/>
-                <Label text="试件尺寸" font="14" textcolor="#FF666666" align="left"/>
+                <Label text="试件尺寸" font="15" textcolor="#FF666666" align="left"/>
             </HorizontalLayout>
             <HorizontalLayout bkcolor="#0000FF00" bkimage="design_res_stresses.png" height="320" width="970"/>
         </VerticalLayout>
