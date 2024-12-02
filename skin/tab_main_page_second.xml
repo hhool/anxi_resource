@@ -81,7 +81,7 @@
                             <Label text="最大循环周次(cycle)" font="13" textcolor="#FF666666" float="true" pos="4, 0, 112, 30"/>
                             <Edit name="edit_exp_max_cycle_count" text="1" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="112, 0, 200, 30" maxchar="8" numberonlyex="true"/>
                             <Label text="x10^" font="9" textcolor="#FF333333" float="true" pos="200, 0, 226, 30"/>
-                            <Label name="text_exp_max_cycle_count_duration" text="≈13888H" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
+                            <Label name="text_exp_max_cycle_count_duration" text="≈13.888H" font="13" textcolor="#FF333333" float="true" pos="112, 30, 220, 60"/>
                             <Edit name="edit_exp_max_cycle_power" text="9" font="13" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" float="true" pos="220, 0, 242, 30" maxchar="2" numberonlyex="true"/>
                             <Button name="btn_exp_max_cycle_count_tips" tooltip="最大值1x10^18" width="16" height="16" float="true" pos="246,8,262,24" normalimage="icon_about_normal.png" hotimage="icon_about_over.png" pushedimage="icon_about_over.png"/>
                         </HorizontalLayout>
