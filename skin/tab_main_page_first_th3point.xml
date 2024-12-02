@@ -75,7 +75,7 @@
                 <Label bkimage="icon_tb_design_args.png" padding="0,0,4,0" width="20" height="20" align="left"/>
                 <Label text="设计参数" font="14" textcolor="#FF666666" width="104" height="20" align="left"/>
                 <Container width="84"/>
-                <Button name="btn_solution_design_refresh_th3point" tooltip="刷新结果" normalimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'" hotimage="file='icon_tb_design_refresh_over.png' dest='0,4,16,20'" pushedimage="file='icon_tb_design_refresh_normal.png' dest='0,4,16,20'"/>
+                <Button name="btn_solution_design_refresh_th3point" tooltip="刷新结果" normalimage="file='icon_cal_normal.png' dest='0,4,12,16'" hotimage="file='icon_cal_over.png' dest='0,4,12,16'" pushedimage="file='icon_cal_normal.png' dest='0,4,12,16'"/>
             </HorizontalLayout>
             <HorizontalLayout float="false" pos="0,310,256,342">
                 <Label padding="1,1,6,1" width="3"/>
