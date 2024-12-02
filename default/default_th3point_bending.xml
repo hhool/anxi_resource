@@ -13,7 +13,7 @@
         <stress_ratio>0.500000</stress_ratio>
     </base_param>
     <result type="th3point">
-        <f_theory_eamplitude>28.290000</f_theory_eamplitude>
+        <f_theory_eamplitude>28.300000</f_theory_eamplitude>
         <f_theory_dc_stress_MPa>6.450000</f_theory_dc_stress_MPa>
         <f_eamplitude>28.340000</f_eamplitude>
         <f_dc_stress_MPa>6.440000</f_dc_stress_MPa>
