@@ -40,7 +40,7 @@
                 <ListHeaderItem text="循环次数" font="10" textcolor="#FF666666" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
                 <ListHeaderItem text="频率(kHz)" font="10" textcolor="#FF666666" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
                 <ListHeaderItem text="最大应力(MPa)" font="10" textcolor="#FF666666" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
-                <ListHeaderItem text="试件底端振幅(um)" font="10" textcolor="#FF666666" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+<ListHeaderItem text="试件底端振幅(μm)" font="10" textcolor="#FF666666" width="260" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
             </ListHeader>
         </List>
         <VerticalLayout width="168" bkcolor="#FFFFFFFF" padding="1,0,0,0">

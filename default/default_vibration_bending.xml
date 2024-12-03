@@ -3,7 +3,7 @@
     <header>
         <solution_type>3</solution_type>
         <version>1</version>
-        <name>震动试样名称</name>
+<name>振动试样名称</name>
     </header>
     <base_param>
         <material_name></material_name>
