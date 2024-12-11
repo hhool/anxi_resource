@@ -49,7 +49,7 @@
             <VerticalLayout name="body.background" padding="10,10,10,0">
                 <VerticalLayout height="16" />
                 <HorizontalLayout>
-                    <Button name="content" text="多功能超声波疲劳试验系统" font="13" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
+                    <Button name="content" text="多功能超声波疲劳试验系统" font="15" textcolor="#FF333333" align="center" enabled="false" disabledtextcolor="#FF333333"/>
                 </HorizontalLayout>
                 <VerticalLayout height="16" />
             </VerticalLayout>
