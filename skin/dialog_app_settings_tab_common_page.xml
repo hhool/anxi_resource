@@ -94,8 +94,8 @@
                 <Label padding="1,1,6,1" width="3"/>
                 <Label text="传感器:" font="13" textcolor="#FF333333" align="left" width="128" height="32"/>
                 <Combo name="combo_stload_N" droptype="droplist" textcolor="#FF333333" bkcolor="#FFF0F0F0" nativebkcolor="#FFF0F0F0" itemfont="13" float="false" height="32" textpadding="4,1,1,1" padding="0,0,7,0">
-                    <ListLabelElement text="1KN" textpadding="4,1,1,1"/>
-                    <ListLabelElement text="2KN" textpadding="4,1,1,1" selected="true"/>
+                    <ListLabelElement text="10KN" textpadding="4,1,1,1"/>
+                    <ListLabelElement text="20KN" textpadding="4,1,1,1" selected="true"/>
                 </Combo>
             </HorizontalLayout>
         </VerticalLayout>
