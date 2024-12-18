@@ -118,7 +118,7 @@
                 <Label padding="1,10,6,12" width="3" height="20" bkcolor="#FF0000FF"/>
                 <Label text="试件尺寸" font="15" textcolor="#FF666666" align="left"/>
             </HorizontalLayout>
-            <HorizontalLayout bkcolor="#0000FF00" bkimage="design_res_vibration.png" height="430" width="460"/>
+            <HorizontalLayout bkcolor="#0000FF00" bkimage="design_res_vibration.png" height="430" width="640"/>
         </VerticalLayout>
     </HorizontalLayout>
 </Window>

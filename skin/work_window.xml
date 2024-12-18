@@ -83,7 +83,7 @@
       <VerticalLayout bkcolor="#FFFFFFFF">
         <HorizontalLayout>
           <Label bkimage="icon_args_area_amplitude.png" padding="0,8,4,0" width="20" height="20"/>
-<Button name="args_area_name_amplitude" text="底端振幅(μm)" align="left" font="17" enabled="false" disabledtextcolor="#FF333333" width="128" height="36"/>
+          <Button name="args_area_name_amplitude" text="底端振幅(μm)" align="left" font="17" enabled="false" disabledtextcolor="#FF333333" width="128" height="36"/>
         </HorizontalLayout>
         <Button name="args_area_value_amplitude" text="9999" align="left" font="26" enabled="false" disabledtextcolor="#FF333333" height="36"/>
       </VerticalLayout>
