@@ -2,5 +2,5 @@
 <exp_path_rule>
     <rule name="rule_exp_starttime" enabled="false"/>
     <rule name="rule_exp_endtime" enabled="false"/>
-    <rule name="rule_exp_stoptime" enabled="true"/>
+    <rule name="rule_exp_current_time" enabled="true"/>
 </exp_path_rule>
