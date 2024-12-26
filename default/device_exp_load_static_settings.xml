@@ -1,8 +1,8 @@
 <device_exp_load_static_settings>
     <direct>1</direct>
     <ctrl_type>0</ctrl_type>
-    <speed>50</speed>
-    <retention>100</retention>
-    <displacement>50</displacement>
-    <keep_load_duration>0</keep_load_duration>
+    <speed>50.00</speed>
+    <retention>100.00</retention>
+    <displacement>50.00</displacement>
+    <keep_load_duration>10.00</keep_load_duration>
 </device_exp_load_static_settings>
