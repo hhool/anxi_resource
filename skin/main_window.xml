@@ -36,7 +36,7 @@
     <HorizontalLayout>
       <!--body-->
       <VerticalLayout name="body_left" text="body_left" width="443">
-        <VerticalLayout name="title" text="title" padding="20,66,0,0" height="80" bkimage="main_window_title.png"/>
+        <VerticalLayout name="title" text="title" padding="20,66,0,0" height="53" width="285" bkimage="main_window_title.png"/>
         <VerticalLayout name="buttons" text="buttons" padding="20,100,0,0" height="103">
           <HorizontalLayout name="btns" text="btns" padding="0,0,0,0">
             <Button name="work_axially_symmetrical" text="轴向对称拉压疲劳试验" align="center" width="204" height="42" font="18" textcolor="#FFFFFFFF" padding="0,0,8,0" normalimage="file='main_btn_normal.png' source='0,0,204,42' corner='4,4,4,4'" hotimage="file='main_btn_over.png' source='0,0,204,42' corner='4,4,4,4'" pushedimage="file='main_btn_over.png' source='0,0,204,42' corner='4,4,4,4'"/>
